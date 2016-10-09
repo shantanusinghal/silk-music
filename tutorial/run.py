@@ -6,7 +6,6 @@ import scrapy
 from scrapy.utils.project import get_project_settings
 from scrapy.crawler import CrawlerRunner
 from scrapy.utils.log import configure_logging
-from tutorial.spiders.apple_music_spider import AppleMusicSpider
 from tutorial.spiders.amazon_music_spider import AmazonMusicSpider
 
 
@@ -18,7 +17,7 @@ def run():
 
     configure_logging()
     runner = CrawlerRunner(settings)
-    runner.crawl(AppleMusicSpider)
+    runner.crawl(AmazonMusicSpider)
 
     d = runner.join()
     d.addBoth(lambda _: reactor.stop())

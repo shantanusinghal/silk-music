@@ -1,3 +1,4 @@
+import re
 import scrapy
 
 
@@ -27,7 +28,7 @@ class AppleMusicSpider(scrapy.Spider):
         adam_id = response.url.split('?i=')[1]
         artist = response.css("tr[adam-id='" + adam_id + "'] td:nth-of-type(3) a span ::text").extract_first()
         track_name = response.css("tr[adam-id='" + adam_id + "'] td:nth-of-type(2) span span[class='text'] ::text").extract_first()
-        with open('apple/' + artist + '_' + track_name + '.html', 'wb') as f:
+        with open('apple/' + self.simplify(artist) + '_' + self.simplify(track_name) + '.html', 'wb') as f:
             f.write(response.body)
         yield {
             'Artist': artist,
@@ -41,3 +42,6 @@ class AppleMusicSpider(scrapy.Spider):
             'Copyright': response.css("div[id='left-stack'] div ul li.copyright ::text").extract_first()
         }
 
+    @staticmethod
+    def simplify(string):
+        return re.sub('[^A-Za-z0-9 ]+', '', string)
