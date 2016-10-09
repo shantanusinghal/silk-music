@@ -1,9 +1,12 @@
 import re
 import scrapy
+from scrapy.exceptions import CloseSpider
 
 
 class AppleMusicSpider(scrapy.Spider):
     name = "appleMusic"
+    pagesScraped = 0
+    maxPages = 5000
     start_urls = [
         'https://itunes.apple.com/us/genre/music-pop/id14'
     ]
@@ -25,11 +28,14 @@ class AppleMusicSpider(scrapy.Spider):
             yield scrapy.Request(url=next_page, callback=self.parse_artist_page)
 
     def parse_song_page(self, response):
+        if self.pagesScraped > self.maxPages:
+            raise CloseSpider('Finished scraping %s pages' % self.maxPages)
         adam_id = response.url.split('?i=')[1]
         artist = response.css("tr[adam-id='" + adam_id + "'] td:nth-of-type(3) a span ::text").extract_first()
         track_name = response.css("tr[adam-id='" + adam_id + "'] td:nth-of-type(2) span span[class='text'] ::text").extract_first()
         with open('apple/' + self.simplify(artist) + '_' + self.simplify(track_name) + '.html', 'wb') as f:
             f.write(response.body)
+        self.pagesScraped += 1
         yield {
             'Artist': artist,
             'TrackName': track_name,
@@ -39,7 +45,7 @@ class AppleMusicSpider(scrapy.Spider):
             'Rating': response.css("div[id='left-stack'] div div span[itemprop='ratingValue'] ::text").extract_first(),
             'Genres': response.css("div[id='left-stack'] div ul li span[itemprop='genre'] ::text").extract(),
             'Released': response.css("div[id='left-stack'] div ul li span[itemprop='dateCreated'] ::text").extract_first(),
-            'Copyright': response.css("div[id='left-stack'] div ul li.copyright ::text").extract_first()
+            'Label': response.css("div[id='left-stack'] div ul li.copyright ::text").extract_first()
         }
 
     @staticmethod
