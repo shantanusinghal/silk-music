@@ -9,11 +9,11 @@ class AmazonMusicSpider(scrapy.Spider):
     pagesScraped = 0
     maxPages = 5000
     start_urls = [
-        'https://www.amazon.com/Rap-Hip-Hop/b/ref=dmm_hp_bbx_rap?ie=UTF8&node=625117011'
+        'https://www.amazon.com/Pop/b?ie=UTF8&node=625092011'
     ]
 
     def parse(self, response):
-        best_selling_albums_page_link = "https://www.amazon.com" + response.css("#acsRWns_f0b3c753-e2dd-307a-bab0-cb4b4c10553b div div a.link_emph::attr(href)").extract_first()
+        best_selling_albums_page_link = "https://www.amazon.com" + response.css("#acsRWns_38e591f5-5cd1-3653-90b7-129de67075c4 div div a.link_emph::attr(href)").extract_first()
         yield scrapy.Request(url=best_selling_albums_page_link, callback=self.collect_album_pages_and_parse)
 
     def collect_album_pages_and_parse(self, response):
@@ -44,6 +44,7 @@ class AmazonMusicSpider(scrapy.Spider):
         for track_name, track_duration, track_price, rating in zip(all_track_names, all_track_durations, all_track_prices, all_ratings):
             self.pagesScraped += 1
             yield {
+                'ID': self.pagesScraped,
                 'Artist': artist,
                 'TrackName': track_name,
                 'Album': album_name,

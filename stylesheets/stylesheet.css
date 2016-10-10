@@ -15,6 +15,35 @@ a {
   a:hover {
     text-decoration: underline; }
 
+img.link-small {
+  max-width: 3%;
+  max-height: 3%; }
+
+div.stage {
+  padding: 4%;
+  border-top: thin solid lightsteelblue; }
+
+div.offline .pretend a {
+  color: lightslategray; }
+
+div.offline .pretend img {
+  visibility: hidden; !important; }
+
+div.offline .pretend:hover a {
+  cursor: default; }
+
+.pretend img {
+  visibility: hidden; }
+
+.pretend:hover img {
+  visibility: visible; }
+
+.pretend a {
+    color: #159957; }
+
+.pretend:hover a {
+    text-decoration: none; }
+
 .btn {
   display: inline-block;
   margin-bottom: 1rem;
@@ -32,7 +61,20 @@ a {
   color: rgba(255, 255, 255, 0.8);
   text-decoration: none;
   background-color: rgba(255, 255, 255, 0.2);
-  border-color: rgba(255, 255, 255, 0.3); }
+  border-color: #f0e68c; }
+
+.btn-dwnld {
+  background-color: whitesmoke;
+  color: black;
+  border: thin solid mediumturquoise;
+  font-size: small; }
+
+.btn-dwnld:hover {
+  color: black;
+  text-decoration: none;
+  background-color: rgba(14,146,133,0.17);
+  border-color: black;
+}
 
 @media screen and (min-width: 64em) {
   .btn {
@@ -106,8 +148,6 @@ a {
 
 .main-content :first-child {
   margin-top: 0; }
-.main-content img {
-  max-width: 100%; }
 .main-content h1, .main-content h2, .main-content h3, .main-content h4, .main-content h5, .main-content h6 {
   margin-top: 2rem;
   margin-bottom: 1rem;
