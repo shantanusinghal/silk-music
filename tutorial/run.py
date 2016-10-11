@@ -14,7 +14,7 @@ def run():
 
     settings = get_project_settings()
     settings.set('FEED_FORMAT', 'csv')
-    settings.set('FEED_URI', 'result_amazon_pop.csv')
+    settings.set('FEED_URI', 'tmp.csv')
 
     configure_logging()
     runner = CrawlerRunner(settings)

@@ -7,14 +7,19 @@ from scrapy.exceptions import CloseSpider
 class AmazonMusicSpider(scrapy.Spider):
     name = "amazonMusic"
     pagesScraped = 0
-    maxPages = 5000
+    maxPages = 6000
     start_urls = [
-        'https://www.amazon.com/Pop/b?ie=UTF8&node=625092011'
+        'https://www.amazon.com/Pop/b?ie=UTF8&node=625092011',
+        'https://www.amazon.com/Dance-DJ/b?ie=UTF8&node=624988011',
+        'https://www.amazon.com/RB/b?ie=UTF8&node=625105011',
+        'https://www.amazon.com/Rap-Hip-Hop/b?ie=UTF8&node=625117011',
+        'https://www.amazon.com/Blues/b?ie=UTF8&node=624881011'
     ]
 
     def parse(self, response):
-        best_selling_albums_page_link = "https://www.amazon.com" + response.css("#acsRWns_38e591f5-5cd1-3653-90b7-129de67075c4 div div a.link_emph::attr(href)").extract_first()
-        yield scrapy.Request(url=best_selling_albums_page_link, callback=self.collect_album_pages_and_parse)
+        best_selling_albums_and_songs = ["https://www.amazon.com" + link for link in response.xpath("//div[starts-with(@id,'acsRWns')]/div/div[2]/a/@href").extract()]
+        for link in best_selling_albums_and_songs:
+            yield scrapy.Request(url=link, callback=self.collect_album_pages_and_parse)
 
     def collect_album_pages_and_parse(self, response):
         album_pages = response.css('div#zg_paginationWrapper ol li.zg_page a::attr(href)').extract()
@@ -39,7 +44,11 @@ class AmazonMusicSpider(scrapy.Spider):
         genres = response.xpath("//*[@id='productDetailsTable']//*[@class='content']//*[text()[contains(.,'Genres:')]]/../div/ul/li/a/text()").extract()
         asin = response.xpath("//*[@id='productDetailsTable']//*[text()[contains(.,'ASIN:')]]/..").extract()[0].split('</b>')[1].split('</li>')[0].strip()
         all_ratings = [len(r.xpath("./div[contains(@class, 'barOn')]").extract())/15.0 * 5 for r in response.xpath("//td[starts-with(@id,'dmusic_tracklist_popularity')]")]
-        with open('amazon/' + self.simplify(artist) + '_' + self.simplify(album_name) + '.html', 'wb') as f:
+        if len(all_track_names) == 1:
+            file_name = 'amazon/' + self.simplify(artist) + '_' + self.simplify(all_track_names[0]) + '.html'
+        else:
+            file_name = 'amazon/' + self.simplify(artist) + '_' + self.simplify(album_name) + '.html'
+        with open(file_name, 'wb') as f:
             f.write(response.body)
         for track_name, track_duration, track_price, rating in zip(all_track_names, all_track_durations, all_track_prices, all_ratings):
             self.pagesScraped += 1
