@@ -37,6 +37,7 @@ class AppleMusicSpider(scrapy.Spider):
             f.write(response.body)
         self.pagesScraped += 1
         yield {
+            'Id': 's_%s' % self.pagesScraped,
             'Artist': artist,
             'TrackName': track_name,
             'Album': response.css("h1[itemprop='name'] ::text").extract_first(),

@@ -44,7 +44,7 @@ class AmazonMusicSpider(scrapy.Spider):
         for track_name, track_duration, track_price, rating in zip(all_track_names, all_track_durations, all_track_prices, all_ratings):
             self.pagesScraped += 1
             yield {
-                'ID': self.pagesScraped,
+                'Id': 's_%s' % self.pagesScraped,
                 'Artist': artist,
                 'TrackName': track_name,
                 'Album': album_name,
