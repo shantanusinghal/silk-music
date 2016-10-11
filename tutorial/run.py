@@ -14,12 +14,12 @@ def run():
 
     settings = get_project_settings()
     settings.set('FEED_FORMAT', 'csv')
-    settings.set('FEED_URI', 'result_itunes_pop.csv')
+    settings.set('FEED_URI', 'result_amazon_pop.csv')
 
     configure_logging()
     runner = CrawlerRunner(settings)
-    runner.crawl(AppleMusicSpider)
-    # runner.crawl(AmazonMusicSpider)
+    # runner.crawl(AppleMusicSpider)
+    runner.crawl(AmazonMusicSpider)
 
     d = runner.join()
     d.addBoth(lambda _: reactor.stop())
