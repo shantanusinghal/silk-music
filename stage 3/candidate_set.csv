@@ -1,0 +1,353 @@
+_id,ltable_Id,rtable_Id,ltable_Artist,ltable_TrackName,ltable_Released,ltable_Time,rtable_Artist,rtable_TrackName,rtable_Released,rtable_Time
+0,1,s_927, Taylor Swift, Welcome To New York,27-Oct-14, 3:32,Taylor Swift,Welcome To New York,27-Oct-14,3:32
+1,2,s_928, Taylor Swift, Blank Space,27-Oct-14, 3:51,Taylor Swift,Blank Space,27-Oct-14,3:51
+2,2,s_929, Taylor Swift, Blank Space,27-Oct-14, 3:51,Taylor Swift,Style,27-Oct-14,3:51
+3,3,s_928, Taylor Swift, Style,27-Oct-14, 3:51,Taylor Swift,Blank Space,27-Oct-14,3:51
+4,3,s_929, Taylor Swift, Style,27-Oct-14, 3:51,Taylor Swift,Style,27-Oct-14,3:51
+5,4,s_930, Taylor Swift, Out of the Woods,27-Oct-14, 3:55,Taylor Swift,Out Of The Woods,27-Oct-14,3:55
+6,5,s_931, Taylor Swift, All You Had To Do Was Stay,28-Oct-14, 3:13,Taylor Swift,All You Had To Do Was Stay,27-Oct-14,3:13
+7,6,s_932, Taylor Swift, Shake It Off,27-Oct-14, 3:39,Taylor Swift,Shake It Off,27-Oct-14,3:39
+8,7,s_933, Taylor Swift, I Wish You Would,27-Oct-14, 3:27,Taylor Swift,I Wish You Would,27-Oct-14,3:27
+9,8,s_934, Taylor Swift, Bad Blood,27-Oct-14, 3:31,Taylor Swift,Bad Blood,27-Oct-14,3:31
+10,9,s_935, Taylor Swift, Wildest Dreams,27-Oct-14, 3:40,Taylor Swift,Wildest Dreams,27-Oct-14,3:40
+11,10,s_936, Taylor Swift, How You Get the Girl,27-Oct-14, 4:07,Taylor Swift,How You Get The Girl,27-Oct-14,4:07
+12,11,s_1857, Taylor Swift, This Love,27-Oct-14, 4:10,DeBarge,All This Love,25-Oct-10,5:53
+13,11,s_2567, Taylor Swift, This Love,27-Oct-14, 4:10,DeBarge,All This Love,25-Mar-97,5:53
+14,11,s_937, Taylor Swift, This Love,27-Oct-14, 4:10,Taylor Swift,This Love,27-Oct-14,4:10
+15,12,s_938, Taylor Swift, I Know Places,27-Oct-14, 3:15,Taylor Swift,I Know Places,27-Oct-14,3:15
+16,13,s_939, Taylor Swift, Clean,27-Oct-14, 4:31,Taylor Swift,Clean,27-Oct-14,4:31
+17,38,s_441, Taylor Swift, You're Not Sorry,11-Nov-08, 4:21,Lukas Graham,You're Not There,1-Apr-16,3:22
+18,42,s_1766, Taylor Swift, Change,11-Nov-08, 4:40,MuteMath,Changes,23-Sep-16,3:54
+19,47,s_2531, Taylor Swift, Dear John,25-Oct-10, 6:43,Joe Walsh,Dear John,12-Jun-07,2:40
+20,64,s_695, Taylor Swift, Stay Beautiful,26-Oct-06, 3:56,Tony Bennett and Lady Gaga,But Beautiful,23-Sep-14,4:04
+21,67,s_511, Taylor Swift, Our Song,24-Oct-06, 3:21,Elton John,Your Song,12-Nov-02,4:05
+22,92,s_441, Taylor Swift, You're Not Sorry,26-Oct-09, 4:21,Lukas Graham,You're Not There,1-Apr-16,3:22
+23,96,s_1766, Taylor Swift, Change,26-Oct-09, 4:41,MuteMath,Changes,23-Sep-16,3:54
+24,97,s_1766, Taylor Swift, Change,26-Oct-09, 4:32,MuteMath,Changes,23-Sep-16,3:54
+25,126,s_2469, Taylor Swift, I Want You Back (Live),21-Nov-11, 1:23,Tye Tribbett & G.A.,I Want It All Back (Live),23-May-06,5:28
+26,223,s_911, Rihanna, Consideration (feat. SZA),29-Jan-16, 2:41,Rihanna,Consideration [feat. SZA] [Explicit],29-Jan-16,2:41
+27,224,s_912, Rihanna, James Joint,29-Jan-16, 1:12,Rihanna,James Joint [Explicit],29-Jan-16,1:12
+28,225,s_913, Rihanna, Kiss It Better,29-Jan-16, 4:13,Rihanna,Kiss It Better [Explicit],29-Jan-16,4:13
+29,226,s_914, Rihanna, Work (feat. Drake),29-Jan-16, 3:39,Rihanna,Work [feat. Drake] [Explicit],29-Jan-16,3:39
+30,227,s_915, Rihanna, Desperado,29-Jan-16, 3:06,Rihanna,Desperado,29-Jan-16,3:06
+31,228,s_916, Rihanna, Woo,29-Jan-16, 3:55,Rihanna,Woo [Explicit],29-Jan-16,3:55
+32,229,s_917, Rihanna, Needed Me,29-Jan-16, 3:11,Rihanna,Needed Me [Explicit],29-Jan-16,3:11
+33,231,s_919, Rihanna, Same Ol’ Mistakes,29-Jan-16, 6:37,Rihanna,Same Ol' Mistakes,29-Jan-16,6:37
+34,232,s_920, Rihanna, Never Ending,29-Jan-16, 3:22,Rihanna,Never Ending,29-Jan-16,3:22
+35,233,s_923, Rihanna, Love on the Brain,29-Jan-16, 3:43,Rihanna,Close To You,29-Jan-16,3:43
+36,234,s_413, Rihanna, Higher,29-Jan-16, 2:00,Carly Rae Jepsen,Higher,26-Aug-16,3:54
+37,234,s_922, Rihanna, Higher,29-Jan-16, 2:00,Rihanna,Higher [Explicit],29-Jan-16,2:00
+38,235,s_923, Rihanna, Close to You,29-Jan-16, 3:57,Rihanna,Close To You,29-Jan-16,3:43
+39,236,s_924, Rihanna, Goodnight Gotham,29-Jan-16, 1:28,Rihanna,Goodnight Gotham,29-Jan-16,1:28
+40,237,s_925, Rihanna, Pose,29-Jan-16, 2:24,Rihanna,Pose [Explicit],29-Jan-16,2:24
+41,238,s_926, Rihanna, Sex with Me,29-Jan-16, 3:26,Rihanna,Sex With Me [Explicit],29-Jan-16,3:26
+42,255,s_909, Rihanna, Diamonds,1-Jan-12, 3:45,Barry Gibb,Diamonds,7-Oct-16,5:17
+43,302,s_504, Rihanna, Mad House,1-Jan-09, 1:34,Jimi Hendrix,Red House,1-Jan-10,3:50
+44,313,s_502, Rihanna, Cold Case Love,1-Jan-09, 6:04,Jimi Hendrix,Bold as Love,1-Jan-10,4:11
+45,316,s_909, Rihanna, Diamonds,1-Jan-12, 3:45,Barry Gibb,Diamonds,7-Oct-16,5:17
+46,354,s_504, Rihanna, Mad House,23-Nov-09, 1:34,Jimi Hendrix,Red House,1-Jan-10,3:50
+47,362,s_88, Rihanna, Photographs,23-Nov-09, 4:46,Ed Sheeran,Photograph,23-Jun-14,4:19
+48,365,s_502, Rihanna, Cold Case Love,23-Nov-09, 6:04,Jimi Hendrix,Bold as Love,1-Jan-10,4:11
+49,372,s_412, Rihanna, Last Time,1-Jan-05, 4:53,Carly Rae Jepsen,First Time,26-Aug-16,3:35
+50,372,s_426, Rihanna, Last Time,1-Jan-05, 4:53,Idina Menzel,Last Time,23-Sep-16,3:57
+51,393,s_911, Rihanna, Consideration (feat. SZA),29-Jan-16, 2:41,Rihanna,Consideration [feat. SZA] [Explicit],29-Jan-16,2:41
+52,394,s_912, Rihanna, James Joint,29-Jan-16, 1:12,Rihanna,James Joint [Explicit],29-Jan-16,1:12
+53,395,s_913, Rihanna, Kiss It Better,29-Jan-16, 4:13,Rihanna,Kiss It Better [Explicit],29-Jan-16,4:13
+54,396,s_914, Rihanna, Work (feat. Drake),29-Jan-16, 3:39,Rihanna,Work [feat. Drake] [Explicit],29-Jan-16,3:39
+55,397,s_915, Rihanna, Desperado,29-Jan-16, 3:06,Rihanna,Desperado,29-Jan-16,3:06
+56,398,s_916, Rihanna, Woo,29-Jan-16, 3:55,Rihanna,Woo [Explicit],29-Jan-16,3:55
+57,399,s_917, Rihanna, Needed Me,29-Jan-16, 3:11,Rihanna,Needed Me [Explicit],29-Jan-16,3:11
+58,401,s_919, Rihanna, Same Ol’ Mistakes,29-Jan-16, 6:37,Rihanna,Same Ol' Mistakes,29-Jan-16,6:37
+59,402,s_920, Rihanna, Never Ending,29-Jan-16, 3:22,Rihanna,Never Ending,29-Jan-16,3:22
+60,403,s_923, Rihanna, Love On the Brain,29-Jan-16, 3:43,Rihanna,Close To You,29-Jan-16,3:43
+61,404,s_413, Rihanna, Higher,29-Jan-16, 2:00,Carly Rae Jepsen,Higher,26-Aug-16,3:54
+62,404,s_922, Rihanna, Higher,29-Jan-16, 2:00,Rihanna,Higher [Explicit],29-Jan-16,2:00
+63,405,s_923, Rihanna, Close To You,29-Jan-16, 3:57,Rihanna,Close To You,29-Jan-16,3:43
+64,406,s_924, Rihanna, Goodnight Gotham,29-Jan-16, 1:28,Rihanna,Goodnight Gotham,29-Jan-16,1:28
+65,407,s_925, Rihanna, Pose,29-Jan-16, 2:24,Rihanna,Pose [Explicit],29-Jan-16,2:24
+66,408,s_926, Rihanna, Sex With Me,29-Jan-16, 3:26,Rihanna,Sex With Me [Explicit],29-Jan-16,3:26
+67,409,s_911, Rihanna, Consideration (feat. SZA),29-Jan-16, 2:41,Rihanna,Consideration [feat. SZA] [Explicit],29-Jan-16,2:41
+68,410,s_912, Rihanna, James Joint,29-Jan-16, 1:12,Rihanna,James Joint [Explicit],29-Jan-16,1:12
+69,411,s_913, Rihanna, Kiss It Better,29-Jan-16, 4:13,Rihanna,Kiss It Better [Explicit],29-Jan-16,4:13
+70,412,s_914, Rihanna, Work (feat. Drake),29-Jan-16, 3:39,Rihanna,Work [feat. Drake] [Explicit],29-Jan-16,3:39
+71,413,s_915, Rihanna, Desperado,29-Jan-16, 3:06,Rihanna,Desperado,29-Jan-16,3:06
+72,414,s_916, Rihanna, Woo,29-Jan-16, 3:55,Rihanna,Woo [Explicit],29-Jan-16,3:55
+73,415,s_917, Rihanna, Needed Me,29-Jan-16, 3:11,Rihanna,Needed Me [Explicit],29-Jan-16,3:11
+74,417,s_919, Rihanna, Same Ol’ Mistakes,29-Jan-16, 6:37,Rihanna,Same Ol' Mistakes,29-Jan-16,6:37
+75,418,s_920, Rihanna, Never Ending,29-Jan-16, 3:22,Rihanna,Never Ending,29-Jan-16,3:22
+76,419,s_923, Rihanna, Love on the Brain,29-Jan-16, 3:43,Rihanna,Close To You,29-Jan-16,3:43
+77,420,s_413, Rihanna, Higher,29-Jan-16, 2:00,Carly Rae Jepsen,Higher,26-Aug-16,3:54
+78,420,s_922, Rihanna, Higher,29-Jan-16, 2:00,Rihanna,Higher [Explicit],29-Jan-16,2:00
+79,421,s_923, Rihanna, Close to You,29-Jan-16, 3:57,Rihanna,Close To You,29-Jan-16,3:43
+80,423,s_909, Rihanna, Diamonds,1-Jan-12, 3:45,Barry Gibb,Diamonds,7-Oct-16,5:17
+81,441,s_909, Rihanna, Diamonds,1-Jan-12, 3:45,Barry Gibb,Diamonds,7-Oct-16,5:17
+82,523,s_911, Rihanna, Consideration (feat. SZA),29-Jan-16, 2:41,Rihanna,Consideration [feat. SZA] [Explicit],29-Jan-16,2:41
+83,524,s_912, Rihanna, James Joint,29-Jan-16, 1:12,Rihanna,James Joint [Explicit],29-Jan-16,1:12
+84,525,s_913, Rihanna, Kiss It Better,29-Jan-16, 4:13,Rihanna,Kiss It Better [Explicit],29-Jan-16,4:13
+85,526,s_914, Rihanna, Work (feat. Drake),29-Jan-16, 3:39,Rihanna,Work [feat. Drake] [Explicit],29-Jan-16,3:39
+86,527,s_915, Rihanna, Desperado,29-Jan-16, 3:06,Rihanna,Desperado,29-Jan-16,3:06
+87,528,s_916, Rihanna, Woo,29-Jan-16, 3:55,Rihanna,Woo [Explicit],29-Jan-16,3:55
+88,529,s_917, Rihanna, Needed Me,29-Jan-16, 3:11,Rihanna,Needed Me [Explicit],29-Jan-16,3:11
+89,531,s_919, Rihanna, Same Ol’ Mistakes,29-Jan-16, 6:37,Rihanna,Same Ol' Mistakes,29-Jan-16,6:37
+90,532,s_920, Rihanna, Never Ending,29-Jan-16, 3:22,Rihanna,Never Ending,29-Jan-16,3:22
+91,533,s_923, Rihanna, Love on the Brain,29-Jan-16, 3:43,Rihanna,Close To You,29-Jan-16,3:43
+92,534,s_413, Rihanna, Higher,29-Jan-16, 2:00,Carly Rae Jepsen,Higher,26-Aug-16,3:54
+93,534,s_922, Rihanna, Higher,29-Jan-16, 2:00,Rihanna,Higher [Explicit],29-Jan-16,2:00
+94,535,s_923, Rihanna, Close to You,29-Jan-16, 3:57,Rihanna,Close To You,29-Jan-16,3:43
+95,716,s_909, Rihanna, Diamonds,1-Jan-12, 3:45,Barry Gibb,Diamonds,7-Oct-16,5:17
+96,771,s_1428, Eminem, Untitled,18-Jun-10, 3:14,Burial,Untitled,1-Jul-14,0:46
+97,781,s_1828, Eminem, Soldier,1-Jan-02, 3:46,Various artists,Soldier,5-Sep-16,3:14
+98,811,s_1428, Eminem, Untitled,18-Jun-10, 3:14,Burial,Untitled,1-Jul-14,0:46
+99,818,s_1127, Eminem, Way I Am,1-Jan-00, 4:50,Gavin DeGraw,Say I Am,9-Sep-16,3:15
+100,820,s_305, Eminem, Remember Me?,1-Jan-00, 3:38,Ingrid Michaelson,I Remember Her,26-Aug-16,3:29
+101,833,s_519, Eminem, Yellow Brick Road,4-Nov-04, 5:46,Elton John,Goodbye Yellow Brick Road,12-Nov-02,3:16
+102,855,s_1127, Eminem, Way I Am,1-Jan-05, 4:51,Gavin DeGraw,Say I Am,9-Sep-16,3:15
+103,858,s_113, Eminem, Lose Yourself,1-Jan-05, 5:26,Justin Bieber,Love Yourself,13-Nov-15,3:53
+104,875,s_210, JAY Z, Renegade,1-Jan-05, 5:36,Styx,Renegade,22-Aug-95,4:14
+105,882,s_1981, Eminem, Hello,19-May-09, 4:08,Lionel Richie,Hello,31-Jan-12,4:08
+106,882,s_2341, Eminem, Hello,19-May-09, 4:08,Prince,Hello,14-Jun-11,3:24
+107,882,s_954, Eminem, Hello,19-May-09, 4:08,Adele,Hello,20-Nov-15,4:55
+108,893,s_1911, Eminem, Beautiful,19-May-09, 6:32,India.Arie,Beautiful,27-Mar-01,4:05
+109,893,s_2198, Eminem, Beautiful,19-May-09, 6:32,Nathan Feuerstein,Beautiful,29-Nov-10,4:27
+110,893,s_695, Eminem, Beautiful,19-May-09, 6:32,Tony Bennett and Lady Gaga,But Beautiful,23-Sep-14,4:04
+111,897,s_2304, Eminem, We Made You (Single Version),19-May-09, 4:46,Blood Sweat & Tears,More and More (Single Version),23-Feb-99,2:40
+112,897,s_248, Eminem, We Made You (Single Version),19-May-09, 4:46,Michael Jackson,Rock with You (Single Version),12-Feb-08,3:40
+113,897,s_637, Eminem, We Made You (Single Version),19-May-09, 4:46,Michael Jackson,Rock with You (Single Version),5-Jul-05,3:23
+114,912,s_2632,  Eminem & Yelawolf, Twisted,24-Nov-14, 4:59,Wood Brothers,Twisted,1-Apr-08,4:08
+115,917,s_113, Eminem, Lose Yourself,24-Nov-14, 5:20,Justin Bieber,Love Yourself,13-Nov-15,3:53
+116,924,s_1812, Obie Trice, Wanna Know,24-Nov-14, 4:04,Various artists,I Wanna Know,5-Sep-16,3:04
+117,936,s_1981, Eminem, Hello,21-Dec-09, 4:08,Lionel Richie,Hello,31-Jan-12,4:08
+118,936,s_2341, Eminem, Hello,21-Dec-09, 4:08,Prince,Hello,14-Jun-11,3:24
+119,936,s_954, Eminem, Hello,21-Dec-09, 4:08,Adele,Hello,20-Nov-15,4:55
+120,947,s_1911, Eminem, Beautiful,21-Dec-09, 6:32,India.Arie,Beautiful,27-Mar-01,4:05
+121,947,s_2198, Eminem, Beautiful,21-Dec-09, 6:32,Nathan Feuerstein,Beautiful,29-Nov-10,4:27
+122,947,s_695, Eminem, Beautiful,21-Dec-09, 6:32,Tony Bennett and Lady Gaga,But Beautiful,23-Sep-14,4:04
+123,950,s_2390, Eminem, Underground,21-Dec-09, 6:11,B. B. King,Go Underground,25-Oct-05,4:03
+124,965,s_1981, Eminem, Hello,19-May-09, 4:08,Lionel Richie,Hello,31-Jan-12,4:08
+125,965,s_2341, Eminem, Hello,19-May-09, 4:08,Prince,Hello,14-Jun-11,3:24
+126,965,s_954, Eminem, Hello,19-May-09, 4:08,Adele,Hello,20-Nov-15,4:55
+127,972,s_2543, Eminem, Old Time's Sake,19-May-09, 4:38,Various artists,For Old Times' Sake,22-Aug-16,4:28
+128,976,s_1911, Eminem, Beautiful,19-May-09, 6:32,India.Arie,Beautiful,27-Mar-01,4:05
+129,976,s_2198, Eminem, Beautiful,19-May-09, 6:32,Nathan Feuerstein,Beautiful,29-Nov-10,4:27
+130,976,s_695, Eminem, Beautiful,19-May-09, 6:32,Tony Bennett and Lady Gaga,But Beautiful,23-Sep-14,4:04
+131,980,s_2304, Eminem, We Made You (Single Version),19-May-09, 4:47,Blood Sweat & Tears,More and More (Single Version),23-Feb-99,2:40
+132,980,s_248, Eminem, We Made You (Single Version),19-May-09, 4:47,Michael Jackson,Rock with You (Single Version),12-Feb-08,3:40
+133,980,s_637, Eminem, We Made You (Single Version),19-May-09, 4:47,Michael Jackson,Rock with You (Single Version),5-Jul-05,3:23
+134,981,s_258,"Eminem, Dr. Dre & 50 Cent", Crack a Bottle (Single Version),19-May-09, 5:15,Michael Jackson,Black or White (Single Version),12-Feb-08,3:18
+135,981,s_656,"Eminem, Dr. Dre & 50 Cent", Crack a Bottle (Single Version),19-May-09, 5:15,Michael Jackson,Black or White (Single Version),5-Jul-05,3:22
+136,985,s_2947, Bizarre & Kuniva, Murder,1-Jan-06, 2:10,Lido,Murder,7-Oct-16,4:35
+137,1005,s_1898, Eminem, Intro,1-Jan-05, 0:33,India.Arie,Intro,27-Mar-01,0:50
+138,1005,s_2143, Eminem, Intro,1-Jan-05, 0:33,OutKast,Intro,23-Sep-03,1:29
+139,1007,s_1127, Eminem, Way I Am,1-Jan-05, 4:51,Gavin DeGraw,Say I Am,9-Sep-16,3:15
+140,1054,s_1428, Eminem, Untitled,18-Jun-10, 3:14,Burial,Untitled,1-Jul-14,0:46
+141,1056,s_1127, Eminem, Way I Am,1-Jan-05, 4:50,Gavin DeGraw,Say I Am,9-Sep-16,3:15
+142,1087,s_2428, Eminem, I'm Shady,1-Jan-99, 3:31,Muddy Waters,I'm Ready,30-Oct-01,3:39
+143,1114,s_519, Eminem, Yellow Brick Road,12-Nov-04, 5:46,Elton John,Goodbye Yellow Brick Road,12-Nov-02,3:16
+144,1153,s_2947, Bizarre & Kuniva, Murder,5-Dec-06, 2:11,Lido,Murder,7-Oct-16,4:35
+145,1178,s_1981, Eminem, Hello,21-Dec-09, 4:08,Lionel Richie,Hello,31-Jan-12,4:08
+146,1178,s_2341, Eminem, Hello,21-Dec-09, 4:08,Prince,Hello,14-Jun-11,3:24
+147,1178,s_954, Eminem, Hello,21-Dec-09, 4:08,Adele,Hello,20-Nov-15,4:55
+148,1189,s_1911, Eminem, Beautiful,21-Dec-09, 6:32,India.Arie,Beautiful,27-Mar-01,4:05
+149,1189,s_2198, Eminem, Beautiful,21-Dec-09, 6:32,Nathan Feuerstein,Beautiful,29-Nov-10,4:27
+150,1189,s_695, Eminem, Beautiful,21-Dec-09, 6:32,Tony Bennett and Lady Gaga,But Beautiful,23-Sep-14,4:04
+151,1192,s_2390, Eminem, Underground,21-Dec-09, 6:11,B. B. King,Go Underground,25-Oct-05,4:03
+152,1206,s_1828, Eminem, Soldier,1-Jan-02, 3:46,Various artists,Soldier,5-Sep-16,3:14
+153,1241,s_2428, Eminem, I'm Shady,23-Feb-99, 3:31,Muddy Waters,I'm Ready,30-Oct-01,3:39
+154,1247,s_519, Eminem, Yellow Brick Road,12-Nov-04, 5:46,Elton John,Goodbye Yellow Brick Road,12-Nov-02,3:16
+155,1267,s_519, Eminem, Yellow Brick Road,12-Nov-04, 5:46,Elton John,Goodbye Yellow Brick Road,12-Nov-02,3:16
+156,1289,s_1981, Eminem, Hello,1-Jan-09, 4:08,Lionel Richie,Hello,31-Jan-12,4:08
+157,1289,s_2341, Eminem, Hello,1-Jan-09, 4:08,Prince,Hello,14-Jun-11,3:24
+158,1289,s_954, Eminem, Hello,1-Jan-09, 4:08,Adele,Hello,20-Nov-15,4:55
+159,1300,s_1911, Eminem, Beautiful,1-Jan-09, 6:32,India.Arie,Beautiful,27-Mar-01,4:05
+160,1300,s_2198, Eminem, Beautiful,1-Jan-09, 6:32,Nathan Feuerstein,Beautiful,29-Nov-10,4:27
+161,1300,s_695, Eminem, Beautiful,1-Jan-09, 6:32,Tony Bennett and Lady Gaga,But Beautiful,23-Sep-14,4:04
+162,1303,s_2390, Eminem, Underground,1-Jan-09, 6:11,B. B. King,Go Underground,25-Oct-05,4:03
+163,1330,s_1700, Katy Perry, Ghost,22-Oct-13, 3:23,Conjure One,Ghost,20-Nov-15,5:22
+164,1331,s_448, Katy Perry, Love Me,22-Oct-13, 3:52,Meghan Trainor,I Love Me,13-May-16,2:47
+165,1346,s_1363, Katy Perry, Lost,17-Jun-08, 4:15,Gareth Emery,Lost,1-Apr-16,4:31
+166,1346,s_1935, Katy Perry, Lost,17-Jun-08, 4:15,Maxwell,Lost,1-Jul-16,3:57
+167,1348,s_530, Katy Perry, I'm Still Breathing,17-Jun-08, 3:48,Elton John,I'm Still Standing,12-Nov-02,3:04
+168,1378,s_1700, Katy Perry, Ghost,1-Jan-13, 3:23,Conjure One,Ghost,20-Nov-15,5:22
+169,1379,s_448, Katy Perry, Love Me,1-Jan-13, 3:52,Meghan Trainor,I Love Me,13-May-16,2:47
+170,1448,s_287, Katy Perry, Use Your Love,20-Nov-07, 3:03,Grace,Feel Your Love,26-May-15,3:03
+171,1448,s_329, Katy Perry, Use Your Love,20-Nov-07, 3:03,Grace,Feel Your Love,1-Jul-16,3:03
+172,1449,s_1363, Katy Perry, Lost,20-Nov-07, 4:20,Gareth Emery,Lost,1-Apr-16,4:31
+173,1449,s_1935, Katy Perry, Lost,20-Nov-07, 4:20,Maxwell,Lost,1-Jul-16,3:57
+174,1461,s_287, Katy Perry, Use Your Love,20-Nov-07, 3:03,Grace,Feel Your Love,26-May-15,3:03
+175,1461,s_329, Katy Perry, Use Your Love,20-Nov-07, 3:03,Grace,Feel Your Love,1-Jul-16,3:03
+176,1462,s_1363, Katy Perry, Lost,20-Nov-07, 4:21,Gareth Emery,Lost,1-Apr-16,4:31
+177,1462,s_1935, Katy Perry, Lost,20-Nov-07, 4:21,Maxwell,Lost,1-Jul-16,3:57
+178,1542,s_1116, Drake, Controlla,29-Apr-16, 4:05,Janet Jackson,Control,24-Apr-07,5:14
+179,1542,s_2820, Drake, Controlla,29-Apr-16, 4:05,Janet Jackson,Control,24-Apr-07,5:53
+180,1555,s_633, Drake, Know Yourself,13-Feb-15, 4:35,Michael Jackson,Enjoy Yourself,5-Jul-05,3:21
+181,1567,s_1956, Drake, Jungle,13-Feb-15, 5:20,H.E.R.,Jungle,9-Sep-16,5:04
+182,1578,s_1815, Drake, Language,24-Sep-13, 3:44,Various artists,Bad Language,5-Sep-16,3:13
+183,1620,s_1189, Drake, Up All Night,"Jan 01,2010", 3:54,Charlie Puth,Up All Night,29-Jan-16,3:10
+184,1627,s_287, Drake, Find Your Love,"Jan 01,2010", 3:28,Grace,Feel Your Love,26-May-15,3:03
+185,1627,s_329, Drake, Find Your Love,"Jan 01,2010", 3:28,Grace,Feel Your Love,1-Jul-16,3:03
+186,1661,s_1189, Drake, Up All Night,1-Jan-10, 3:54,Charlie Puth,Up All Night,29-Jan-16,3:10
+187,1668,s_287, Drake, Find Your Love,1-Jan-10, 3:28,Grace,Feel Your Love,26-May-15,3:03
+188,1668,s_329, Drake, Find Your Love,1-Jan-10, 3:28,Grace,Feel Your Love,1-Jul-16,3:03
+189,1679,s_1815, Drake, Language,24-Sep-13, 3:44,Various artists,Bad Language,5-Sep-16,3:13
+190,1686,s_633, Drake, Know Yourself,13-Feb-15, 4:35,Michael Jackson,Enjoy Yourself,5-Jul-05,3:21
+191,1698,s_1956, Drake, Jungle,13-Feb-15, 5:20,H.E.R.,Jungle,9-Sep-16,5:04
+192,1709,s_1815, Drake, Language,24-Sep-13, 3:44,Various artists,Bad Language,5-Sep-16,3:13
+193,1725,s_1116, Drake, Controlla,29-Apr-16, 4:05,Janet Jackson,Control,24-Apr-07,5:14
+194,1725,s_2820, Drake, Controlla,29-Apr-16, 4:05,Janet Jackson,Control,24-Apr-07,5:53
+195,1762,s_1815, Drake, Language,24-Sep-13, 3:44,Various artists,Bad Language,5-Sep-16,3:13
+196,1853,s_1043, Beyoncé, Heaven,13-Dec-13, 3:50,OneRepublic,Heaven,7-Oct-16,4:18
+197,1853,s_2254, Beyoncé, Heaven,13-Dec-13, 3:50,Kem,Heaven,17-May-05,6:22
+198,1873,s_1002, Beyoncé, Pray You Catch Me,23-Apr-16, 3:15,Beyonce,Pray You Catch Me,25-Apr-16,3:16
+199,1873,s_28, Beyoncé, Pray You Catch Me,23-Apr-16, 3:15,Beyonce,Pray You Catch Me,25-Apr-16,3:16
+200,1876,s_112, Beyoncé, Sorry,23-Apr-16, 3:52,Justin Bieber,Sorry,13-Nov-15,3:20
+201,1878,s_1007, Beyoncé, Daddy Lessons,23-Apr-16, 4:47,Beyonce,Daddy Lessons,25-Apr-16,4:48
+202,1878,s_33, Beyoncé, Daddy Lessons,23-Apr-16, 4:47,Beyonce,Daddy Lessons,25-Apr-16,4:48
+203,1879,s_1008, Beyoncé, Love Drought,23-Apr-16, 3:57,Beyonce,Love Drought,25-Apr-16,3:57
+204,1879,s_34, Beyoncé, Love Drought,23-Apr-16, 3:57,Beyonce,Love Drought,25-Apr-16,3:57
+205,1883,s_1012, Beyoncé, All Night,23-Apr-16, 5:21,Beyonce,All Night,25-Apr-16,5:22
+206,1883,s_1189, Beyoncé, All Night,23-Apr-16, 5:21,Charlie Puth,Up All Night,29-Jan-16,3:10
+207,1883,s_38, Beyoncé, All Night,23-Apr-16, 5:21,Beyonce,All Night,25-Apr-16,5:21
+208,1906,s_2196, Beyoncé, I Miss You,29-Mar-13, 2:58,Nathan Feuerstein,Miss You,29-Nov-10,4:15
+209,1906,s_2514, Beyoncé, I Miss You,29-Mar-13, 2:58,Kem,Miss You,25-Feb-03,4:27
+210,1906,s_956, Beyoncé, I Miss You,29-Mar-13, 2:58,Adele,I Miss You,20-Nov-15,5:48
+211,1955,s_1043, Beyoncé, Heaven,13-Dec-13, 3:50,OneRepublic,Heaven,7-Oct-16,4:18
+212,1955,s_2254, Beyoncé, Heaven,13-Dec-13, 3:50,Kem,Heaven,17-May-05,6:22
+213,1975,s_1002, Beyoncé, Pray You Catch Me,23-Apr-16, 3:16,Beyonce,Pray You Catch Me,25-Apr-16,3:16
+214,1975,s_28, Beyoncé, Pray You Catch Me,23-Apr-16, 3:16,Beyonce,Pray You Catch Me,25-Apr-16,3:16
+215,1978,s_112, Beyoncé, Sorry,23-Apr-16, 3:52,Justin Bieber,Sorry,13-Nov-15,3:20
+216,1980,s_1007, Beyoncé, Daddy Lessons,23-Apr-16, 4:47,Beyonce,Daddy Lessons,25-Apr-16,4:48
+217,1980,s_33, Beyoncé, Daddy Lessons,23-Apr-16, 4:47,Beyonce,Daddy Lessons,25-Apr-16,4:48
+218,1981,s_1008, Beyoncé, Love Drought,23-Apr-16, 3:57,Beyonce,Love Drought,25-Apr-16,3:57
+219,1981,s_34, Beyoncé, Love Drought,23-Apr-16, 3:57,Beyonce,Love Drought,25-Apr-16,3:57
+220,1985,s_1012, Beyoncé, All Night,23-Apr-16, 5:21,Beyonce,All Night,25-Apr-16,5:22
+221,1985,s_1189, Beyoncé, All Night,23-Apr-16, 5:21,Charlie Puth,Up All Night,29-Jan-16,3:10
+222,1985,s_38, Beyoncé, All Night,23-Apr-16, 5:21,Beyonce,All Night,25-Apr-16,5:21
+223,2030,s_2468, Beyoncé, Intro (Live),26-Nov-10, 1:11,Tye Tribbett & G.A.,Intro (Live),23-May-06,2:03
+224,2054,s_2468, Beyoncé, Outro (Live),26-Nov-10, 1:58,Tye Tribbett & G.A.,Intro (Live),23-May-06,2:03
+225,2067,s_1043, Beyoncé, Heaven,24-Nov-14, 3:50,OneRepublic,Heaven,7-Oct-16,4:18
+226,2067,s_2254, Beyoncé, Heaven,24-Nov-14, 3:50,Kem,Heaven,17-May-05,6:22
+227,2135,s_1043, Beyoncé, Heaven,24-Nov-14, 3:50,OneRepublic,Heaven,7-Oct-16,4:18
+228,2135,s_2254, Beyoncé, Heaven,24-Nov-14, 3:50,Kem,Heaven,17-May-05,6:22
+229,2178,s_1981, Beyoncé, Hello,17-Nov-08, 4:16,Lionel Richie,Hello,31-Jan-12,4:08
+230,2178,s_2341, Beyoncé, Hello,17-Nov-08, 4:16,Prince,Hello,14-Jun-11,3:24
+231,2178,s_954, Beyoncé, Hello,17-Nov-08, 4:16,Adele,Hello,20-Nov-15,4:55
+232,2193,s_1582, Beyoncé, Halo (Radio Edit),13-Apr-09, 3:44,Tears For Fears,Change (Radio Edit),25-Sep-01,3:58
+233,2248,s_1043, Beyoncé, Heaven,24-Nov-14, 3:50,OneRepublic,Heaven,7-Oct-16,4:18
+234,2248,s_2254, Beyoncé, Heaven,24-Nov-14, 3:50,Kem,Heaven,17-May-05,6:22
+235,2303,s_1043, Beyoncé, Heaven,24-Nov-14, 3:50,OneRepublic,Heaven,7-Oct-16,4:18
+236,2303,s_2254, Beyoncé, Heaven,24-Nov-14, 3:50,Kem,Heaven,17-May-05,6:22
+237,2339,s_415, Beyoncé, Fever,8-Feb-10, 3:32,Carly Rae Jepsen,Fever,26-Aug-16,3:05
+238,2392,s_1074, Maroon 5, Can't Stop,22-May-07, 2:32,OneRepublic,Can't Stop,14-Apr-14,4:09
+239,2393,s_239, Maroon 5, Goodnight Goodnight,22-May-07, 4:03,Andra Day,Goodbye Goodnight,28-Aug-15,4:27
+240,2394,s_2203, Maroon 5, Not Falling Apart,22-May-07, 4:03,Nathan Feuerstein,Falling Apart,29-Nov-10,4:30
+241,2400,s_1857, Maroon 5, This Love,25-Jun-02, 3:27,DeBarge,All This Love,25-Oct-10,5:53
+242,2400,s_2567, Maroon 5, This Love,25-Jun-02, 3:27,DeBarge,All This Love,25-Mar-97,5:53
+243,2400,s_937, Maroon 5, This Love,25-Jun-02, 3:27,Taylor Swift,This Love,27-Oct-14,4:10
+244,2411,s_2073, Maroon 5, One More Night,1-Jan-12, 3:39,Michael Kiwanuka,One More Night,15-Jul-16,3:53
+245,2423,s_222, Maroon 5, Wipe Your Eyes,1-Jan-12, 3:36,Meghan Trainor,Close Your Eyes,13-Jan-15,3:40
+246,2427,s_2073, Maroon 5, One More Night,1-Jan-12, 3:39,Michael Kiwanuka,One More Night,15-Jul-16,3:53
+247,2439,s_722, Maroon 5, Misery,5-Aug-14, 3:36,Gwen Stefani,Misery,18-Mar-16,3:26
+248,2447,s_2106, Maroon 5, Get Back In My Life,5-Aug-14, 3:37,The Righteous Brothers,Just Once In My Life,15-Jan-91,3:49
+249,2449,s_1108, Maroon 5, Runaway,5-Aug-14, 3:01,Janet Jackson,Runaway,24-Apr-07,3:34
+250,2449,s_91, Maroon 5, Runaway,5-Aug-14, 3:01,Ed Sheeran,Runaway,23-Jun-14,3:25
+251,2455,s_827, Maroon 5, Misery (Acoustic),5-Aug-14, 3:46,Shawn Mendes,Mercy (Acoustic),23-Sep-16,3:39
+252,2457,s_395, Maroon 5, Air That I Breathe,5-Aug-14, 4:17,The Hollies,The Air That I Breathe,26-Mar-02,4:09
+253,2458,s_722, Maroon 5, Misery,5-Aug-14, 3:36,Gwen Stefani,Misery,18-Mar-16,3:26
+254,2466,s_2106, Maroon 5, Get Back In My Life,5-Aug-14, 3:37,The Righteous Brothers,Just Once In My Life,15-Jan-91,3:49
+255,2468,s_1108, Maroon 5, Runaway,5-Aug-14, 3:01,Janet Jackson,Runaway,24-Apr-07,3:34
+256,2468,s_91, Maroon 5, Runaway,5-Aug-14, 3:01,Ed Sheeran,Runaway,23-Jun-14,3:25
+257,2471,s_395, Maroon 5, Air That I Breathe,5-Aug-14, 4:17,The Hollies,The Air That I Breathe,26-Mar-02,4:09
+258,2475,s_1186, Maroon 5, Losing My Mind,18-Dec-07, 3:20,Charlie Puth,Losing My Mind,29-Jan-16,3:32
+259,2486,s_1129, Maroon 5, New Love,15-May-15, 3:16,Gavin DeGraw,New Love,9-Sep-16,3:26
+260,2500,s_2073, Maroon 5, One More Night,17-Jul-12, 3:39,Michael Kiwanuka,One More Night,15-Jul-16,3:53
+261,2512,s_222, Maroon 5, Wipe Your Eyes,17-Jul-12, 3:36,Meghan Trainor,Close Your Eyes,13-Jan-15,3:40
+262,2516,s_2073, Maroon 5, One More Night,26-Jun-12, 3:39,Michael Kiwanuka,One More Night,15-Jul-16,3:53
+263,2584,s_1129, Maroon 5, New Love,18-May-15, 3:16,Gavin DeGraw,New Love,9-Sep-16,3:26
+264,2596,s_1857, Maroon 5, This Love,25-Jun-02, 3:26,DeBarge,All This Love,25-Oct-10,5:53
+265,2596,s_2567, Maroon 5, This Love,25-Jun-02, 3:26,DeBarge,All This Love,25-Mar-97,5:53
+266,2596,s_937, Maroon 5, This Love,25-Jun-02, 3:26,Taylor Swift,This Love,27-Oct-14,4:10
+267,2631,s_1129, Maroon 5, New Love,15-May-15, 3:16,Gavin DeGraw,New Love,9-Sep-16,3:26
+268,2646,s_1129, Maroon 5, New Love,15-May-15, 3:16,Gavin DeGraw,New Love,9-Sep-16,3:26
+269,2674,s_1857, Maroon 5, This Love,12-Feb-08, 3:25,DeBarge,All This Love,25-Oct-10,5:53
+270,2674,s_2567, Maroon 5, This Love,12-Feb-08, 3:25,DeBarge,All This Love,25-Mar-97,5:53
+271,2674,s_937, Maroon 5, This Love,12-Feb-08, 3:25,Taylor Swift,This Love,27-Oct-14,4:10
+272,2719,s_1765, Kanye West, Heartless (Bonus Track),2008, 3:40,John Carpenter,Real Xeno (Bonus Track),15-Apr-16,4:30
+273,2738,s_1454, Kanye West, Roses,1-Jan-05, 4:05,The Chainsmokers,Roses,23-Oct-15,3:45
+274,2738,s_419, Kanye West, Roses,1-Jan-05, 4:05,Carly Rae Jepsen,Roses,26-Aug-16,3:40
+275,2738,s_826, Kanye West, Roses,1-Jan-05, 4:05,Shawn Mendes,Roses,23-Sep-16,3:52
+276,2740,s_1941, Kanye West, Addiction,1-Jan-05, 4:27,Black Violin,Addiction,18-Sep-15,4:08
+277,2751,s_1898, Kanye West, Intro,1-Jan-04, 0:19,India.Arie,Intro,27-Mar-01,0:50
+278,2751,s_2143, Kanye West, Intro,1-Jan-04, 0:19,OutKast,Intro,23-Sep-03,1:29
+279,2752,s_1531, Kanye West, We Don't Care,1-Jan-04, 3:59,Die Antwoord,I Don't Care,16-Sep-16,4:44
+280,2768,s_294,"Kanye West, Mos Def, Freeway & The Harlem Boys Choir", Two Words,1-Jan-04, 4:26,Sabrina Carpenter,No Words,14-Oct-16,
+281,2792,s_1918, JAY Z & Kanye West, New Day,2011, 4:32,Alicia Keys,New Day,27-Nov-12,4:02
+282,2794,s_584, JAY Z & Kanye West, Welcome Tto the Jungle,2011, 2:54,Guns N' Roses,Welcome To The Jungle,21-Jul-87,4:33
+283,2818,s_1918, Kanye West & JAY Z, New Day,12-Aug-11, 4:32,Alicia Keys,New Day,27-Nov-12,4:02
+284,2820,s_584, Kanye West & JAY Z, Welcome to the Jungle,12-Aug-11, 2:54,Guns N' Roses,Welcome To The Jungle,21-Jul-87,4:33
+285,2837,s_1454, Kanye West, Roses,1-Jan-05, 4:05,The Chainsmokers,Roses,23-Oct-15,3:45
+286,2837,s_419, Kanye West, Roses,1-Jan-05, 4:05,Carly Rae Jepsen,Roses,26-Aug-16,3:40
+287,2837,s_826, Kanye West, Roses,1-Jan-05, 4:05,Shawn Mendes,Roses,23-Sep-16,3:52
+288,2839,s_1941, Kanye West, Addiction,1-Jan-05, 4:27,Black Violin,Addiction,18-Sep-15,4:08
+289,2847,s_2361, Kanye West, Gone,1-Jan-05, 5:33,Laith Al-Saadi,Gone,1-Sep-13,3:45
+290,2847,s_2794, Kanye West, Gone,1-Jan-05, 5:33,My bubba & Mi,Gone,13-Aug-10,2:35
+291,2850,s_1898, Kanye West, Intro,1-Jan-04, 0:19,India.Arie,Intro,27-Mar-01,0:50
+292,2850,s_2143, Kanye West, Intro,1-Jan-04, 0:19,OutKast,Intro,23-Sep-03,1:29
+293,2851,s_1531, Kanye West, We Don't Care,1-Jan-04, 3:59,Die Antwoord,I Don't Care,16-Sep-16,4:44
+294,2867,s_294,"Kanye West, Mos Def, Freeway & The Harlem Boys Choir", Two Words,1-Jan-04, 4:26,Sabrina Carpenter,No Words,14-Oct-16,
+295,2890,s_1918, Kanye West & JAY Z, New Day,"Aug 12,2011", 4:32,Alicia Keys,New Day,27-Nov-12,4:02
+296,2892,s_584, Kanye West & JAY Z, Welcome to the Jungle,"Aug 12,2011", 2:54,Guns N' Roses,Welcome To The Jungle,21-Jul-87,4:33
+297,2911,s_1108, Kanye West, Runway,22-Nov-10, 34:25,Janet Jackson,Runaway,24-Apr-07,3:34
+298,2911,s_91, Kanye West, Runway,22-Nov-10, 34:25,Ed Sheeran,Runaway,23-Jun-14,3:25
+299,2917,s_1918, JAY Z & Kanye West, New Day,2011, 4:32,Alicia Keys,New Day,27-Nov-12,4:02
+300,2919,s_584, JAY Z & Kanye West, Welcome to the Jungle,2011, 2:54,Guns N' Roses,Welcome To The Jungle,21-Jul-87,4:33
+301,2934,s_1531, Kanye West, We Don't Care,31-Aug-04, 2:55,Die Antwoord,I Don't Care,16-Sep-16,4:44
+302,2963,s_1836, Kanye West, Highlights,15-Jun-16, 3:19,Various artists,Highlight,5-Sep-16,4:11
+303,2981,s_1981, Adele, Hello,20-Nov-15, 4:55,Lionel Richie,Hello,31-Jan-12,4:08
+304,2981,s_2341, Adele, Hello,20-Nov-15, 4:55,Prince,Hello,14-Jun-11,3:24
+305,2981,s_954, Adele, Hello,20-Nov-15, 4:55,Adele,Hello,20-Nov-15,4:55
+306,2982,s_955, Adele, Send My Love (To Your New Lover),20-Nov-15, 3:43,Adele,Send My Love (To Your New Lover),20-Nov-15,3:43
+307,2983,s_2196, Adele, I Miss You,20-Nov-15, 5:48,Nathan Feuerstein,Miss You,29-Nov-10,4:15
+308,2983,s_2514, Adele, I Miss You,20-Nov-15, 5:48,Kem,Miss You,25-Feb-03,4:27
+309,2983,s_956, Adele, I Miss You,20-Nov-15, 5:48,Adele,I Miss You,20-Nov-15,5:48
+310,2984,s_957, Adele, When We Were Young,20-Nov-15, 4:50,Adele,When We Were Young,20-Nov-15,4:50
+311,2985,s_958, Adele, Remedy,20-Nov-15, 4:05,Adele,Remedy,20-Nov-15,4:05
+312,2986,s_959, Adele, Water Under the Bridge,20-Nov-15, 4:00,Adele,Water Under the Bridge,20-Nov-15,4:00
+313,2987,s_960, Adele, River Lea,20-Nov-15, 3:45,Adele,River Lea,20-Nov-15,3:45
+314,2988,s_961, Adele, Love in the Dark,20-Nov-15, 4:45,Adele,Love in the Dark,20-Nov-15,4:45
+315,2989,s_962, Adele, Million Years Ago,20-Nov-15, 3:47,Adele,Million Years Ago,20-Nov-15,3:47
+316,2990,s_963, Adele, All I Ask,20-Nov-15, 4:31,Adele,All I Ask,20-Nov-15,4:31
+317,2991,s_964, Adele, Sweetest Devotion,20-Nov-15, 4:11,Adele,Sweetest Devotion,20-Nov-15,4:11
+318,2992,s_137, Adele, Rolling in the Deep,24-Jan-11, 3:48,The Piano Guys,Rolling in the Deep,2-Oct-12,3:51
+319,2992,s_711, Adele, Rolling in the Deep,24-Jan-11, 3:48,Adele,Rolling in the Deep,22-Feb-11,3:48
+320,2993,s_712, Adele, Rumour Has It,24-Jan-11, 3:43,Adele,Rumour Has It,22-Feb-11,3:41
+321,2994,s_713, Adele, Turning Tables,24-Jan-11, 4:10,Adele,Turning Tables,22-Feb-11,4:10
+322,2995,s_201, Adele, Don't You Remember,24-Jan-11, 4:03,Jack Johnson,Do You Remember,1-Mar-05,2:24
+323,2995,s_714, Adele, Don't You Remember,24-Jan-11, 4:03,Adele,Don't You Remember,22-Feb-11,4:03
+324,2996,s_715, Adele, Set Fire to the Rain,24-Jan-11, 4:01,Adele,Set Fire to the Rain,22-Feb-11,4:01
+325,2997,s_716, Adele, He Won't Go,24-Jan-11, 4:37,Adele,He Won't Go,22-Feb-11,4:37
+326,2998,s_717, Adele, Take It All,24-Jan-11, 3:48,Adele,Take It All,22-Feb-11,3:48
+327,2999,s_718, Adele, I'll Be Waiting,24-Jan-11, 4:01,Adele,I'll Be Waiting,22-Feb-11,4:01
+328,3000,s_719, Adele, One and Only,24-Jan-11, 5:48,Adele,One And Only,22-Feb-11,5:46
+329,3005,s_1709, Adele,Crazy for You,28-Jan-08, 3:28,Madonna,Crazy For You,12-Feb-13,3:45
+330,3007,s_412, Adele,First Love,28-Jan-08, 3:10,Carly Rae Jepsen,First Time,26-Aug-16,3:35
+331,3011,s_1387, Adele,Tired,28-Jan-08, 4:18,Armin van Buuren,Wired,19-Aug-16,3:18
+332,3012,s_1739, Adele,Hometown Glory,28-Jan-08, 4:31,Zhu,Hometown Girl,29-Jul-16,4:12
+333,3027,s_137, Adele,Rolling in the Deep (Live),12-Jul-11, 5:21,The Piano Guys,Rolling in the Deep,2-Oct-12,3:51
+334,3027,s_711, Adele,Rolling in the Deep (Live),12-Jul-11, 5:21,Adele,Rolling in the Deep,22-Feb-11,3:48
+335,3028,s_109,Justin Bieber,Mark My Words,13-Nov-15, 2:14,Justin Bieber,Mark My Words,13-Nov-15,2:14
+336,3029,s_110,Justin Bieber,I'll Show You,13-Nov-15, 3:19,Justin Bieber,I'll Show You,13-Nov-15,3:19
+337,3029,s_122,Justin Bieber,I'll Show You,13-Nov-15, 3:19,Justin Bieber,Been You,13-Nov-15,3:19
+338,3030,s_111,Justin Bieber,What Do You Mean?,13-Nov-15, 3:25,Justin Bieber,What Do You Mean?,13-Nov-15,3:25
+339,3031,s_112,Justin Bieber,Sorry,13-Nov-15, 3:20,Justin Bieber,Sorry,13-Nov-15,3:20
+340,3032,s_113,Justin Bieber,Love Yourself,13-Nov-15, 3:53,Justin Bieber,Love Yourself,13-Nov-15,3:53
+341,3033,s_114,Justin Bieber,Company,13-Nov-15, 3:28,Justin Bieber,Company,13-Nov-15,3:28
+342,3034,s_115,Justin Bieber,No Pressure (feat. Big Sean),13-Nov-15, 4:46,Justin Bieber,No Pressure [feat. Big Sean],13-Nov-15,4:46
+343,3035,s_116,Justin Bieber,No Sense,13-Nov-15, 4:35,Justin Bieber,No Sense [feat. Travis Scott],13-Nov-15,4:35
+344,3036,s_117,Justin Bieber,The Feeling,13-Nov-15, 4:04,Justin Bieber,The Feeling [feat. Halsey],13-Nov-15,4:04
+345,3037,s_118,Justin Bieber,Life Is Worth Living,13-Nov-15, 3:54,Justin Bieber,Life Is Worth Living,13-Nov-15,3:54
+346,3038,s_119,Justin Bieber,Where are you now,13-Nov-15, 4:02,Justin Bieber,Where Are Now,13-Nov-15,4:02
+347,3039,s_120,Justin Bieber,Children,13-Nov-15, 3:43,Justin Bieber,Children,13-Nov-15,3:43
+348,3040,s_121,Justin Bieber,Purpose,13-Nov-15, 3:30,Justin Bieber,Purpose,13-Nov-15,3:30
+349,3040,s_291,Justin Bieber,Purpose,13-Nov-15, 3:30,Sabrina Carpenter,On Purpose,14-Oct-16,3:58
+350,3041,s_110,Justin Bieber,Been you,13-Nov-15, 3:19,Justin Bieber,I'll Show You,13-Nov-15,3:19
+351,3041,s_122,Justin Bieber,Been you,13-Nov-15, 3:19,Justin Bieber,Been You,13-Nov-15,3:19
