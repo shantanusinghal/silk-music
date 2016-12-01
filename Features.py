@@ -2,6 +2,7 @@ import py_stringmatching as ps
 import csv
 from datetime import datetime, date
 from sklearn import tree, ensemble, svm, naive_bayes, linear_model #.RandomForestClassifier
+from sklearn.metrics import precision_recall_fscore_support
 
 
 timeObj1=datetime.strptime('03:55', '%M:%S').time()
@@ -99,6 +100,11 @@ lrTp = 0.0
 lrFp = 0.0
 lrFn = 0.0
 
+dtTrue = []
+rfTrue = []
+svmTrue = []
+gnbTrue = []
+lrTrue = []
 
 
 for i in range(len(Ifeat)):
@@ -108,6 +114,7 @@ for i in range(len(Ifeat)):
 	dt = tree.DecisionTreeClassifier()
 	dt = dt.fit(X, Y)
 	dtPred = dt.predict([Ifeat[i]])
+	dtTrue.append(dtPred)
 	if dtPred == Ilabel[i]:
 		dtTp += 1
 	elif dtPred == 1:
@@ -121,6 +128,7 @@ for i in range(len(Ifeat)):
 	rf = ensemble.RandomForestClassifier()
 	rf = rf.fit(X, Y)
 	rfPred = rf.predict([Ifeat[i]])
+	rfTrue.append(rfPred)
 	if rfPred == Ilabel[i]:
 		rfTp += 1
 	elif rfPred == 1:
@@ -133,6 +141,7 @@ for i in range(len(Ifeat)):
 	s1 = svm.SVC()
 	svmFit = s1.fit(X,Y)
 	svmPred = s1.predict([Ifeat[i]])
+	svmTrue.append(svmPred)
 	if svmPred == Ilabel[i]:
 		svmTp += 1
 	elif svmPred == 1:
@@ -146,6 +155,7 @@ for i in range(len(Ifeat)):
 	gnb = naive_bayes.GaussianNB()
 	gnb = gnb.fit(X,Y)
 	gnbPred = gnb.predict([Ifeat[i]])
+	gnbTrue.append(gnbPred)
 	if gnbPred == Ilabel[i]:
 		gnbTp += 1
 	elif gnbPred == 1:
@@ -159,6 +169,7 @@ for i in range(len(Ifeat)):
 	lr = linear_model.LogisticRegression()
 	lr = lr.fit(X,Y)
 	lrPred = gnb.predict([Ifeat[i]])
+	lrTrue.append(lrPred)
 	if lrPred == Ilabel[i]:
 		lrTp += 1
 	elif lrPred == 1:
@@ -194,9 +205,14 @@ lrPrecision = lrTp / (lrTp + lrFp)
 lrRecall = lrTp / (lrTp + lrFn)
 lrF1Score = 2 * (lrPrecision * lrRecall) / (lrPrecision + lrRecall)
 
-print "dtPrecision: " + str(dtPrecision) + "dtRecall: " + str(dtRecall) + "dtF1: " + str(dtF1Score)
-print "rfPrecision: " + str(rfPrecision) + "rfRecall: " + str(rfRecall) + " rfF1: " + str(rfF1Score)
-print "svmPrecision: " + str(svmPrecision) + "svmRecall: " + str(svmRecall) + " svmF1: " + str(svmF1Score)
-print "gnbPrecision: " + str(gnbPrecision) + "gnbRecall: " + str(gnbRecall) + " gnbF1: " + str(gnbF1Score)
-print "lrPrecision: " + str(lrPrecision) + "lrRecall: " + str(lrRecall) + " lrF1: " + str(lrF1Score)
+# print "dtPrecision: " + str(dtPrecision) + "dtRecall: " + str(dtRecall) + "dtF1: " + str(dtF1Score)
+# print "rfPrecision: " + str(rfPrecision) + "rfRecall: " + str(rfRecall) + " rfF1: " + str(rfF1Score) #+ "sklRfF1: " + precision_recall_fscore_support(rfTrue, Ilabel)
+# print "svmPrecision: " + str(svmPrecision) + "svmRecall: " + str(svmRecall) + " svmF1: " + str(svmF1Score) #+ "sklSvmF1: " + precision_recall_fscore_support(svmTrue, Ilabel)
+# print "gnbPrecision: " + str(gnbPrecision) + "gnbRecall: " + str(gnbRecall) + " gnbF1: " + str(gnbF1Score) #+ "sklGnbF1: " + precision_recall_fscore_support(gnbTrue, Ilabel)
+# print "lrPrecision: " + str(lrPrecision) + "lrRecall: " + str(lrRecall) + " lrF1: " + str(lrF1Score) #+ "sklLrF1: " + precision_recall_fscore_support(lrTrue, Ilabel)
+print precision_recall_fscore_support(Ilabel, dtTrue, average='binary')
+print precision_recall_fscore_support(Ilabel, rfTrue, average='binary')
+print precision_recall_fscore_support(Ilabel, svmTrue, average='binary')
+print precision_recall_fscore_support(Ilabel, gnbTrue, average='binary')
+print precision_recall_fscore_support(Ilabel, lrTrue, average='binary')
 
