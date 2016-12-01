@@ -550,7 +550,7 @@ for item in sampledList:
 	timeObj4 = datetime.strptime('00:00:00', '%H:%M:%S').time()
 	
 	dif = datetime.combine(max(date1, date2), timeObj4) - datetime.combine( min(date1, date2), timeObj4)
-	norm = datetime.combine(date.today(), timeObj4)- datetime.combine( min(date1, date2), timeObj4)
+	norm = datetime.combine(date.today(), timeObj4)- datetime.combine(min(date1, date2), timeObj4)
 	
 	f3 = 1.0*(norm.days-dif.days)/norm.days
 	# print 1.0*(norm.days-dif.days)/norm.days
@@ -800,8 +800,22 @@ for i in range(len(Vlabel)):
 
 rfFinal = ensemble.RandomForestClassifier()
 rfFinal = rf.fit(Ifeat, Ilabel)
-rfPredFinal = rf.predict(Jfeat)
-#Code for Precision, Recall, F1 witout CV
+
+for i in range(len(Jfeat)):
+	rfPredFinal = rf.predict([Jfeat[i]])
+	if rfPredFinal == 1 and Jlabel[i] == 1:
+		rfTP += 1
+	if rfPredFinal ==1 and Jlabel[i] == 0:
+		rfFP += 1
+	if rfPredFinal == 0 and Jlabel[i] ==1:
+		rfFN += 1
+rfPrecision = (rfTP*1.0)/(rfTP+rfFP)
+rfRecall = (rfTP*1.0)/(rfTP+rfFN)
+rfF1 = (2.0*rfPrecision*rfRecall)/(rfPrecision + rfRecall)
+
+print "FINAL RESULT on J: "
+print "rfPrecision" +' ' + str(rfPrecision) + ' ' + "rfRecall" +' ' + str(rfRecall) +' '+ "rfF1" +' ' + str(rfF1)
+	#Code for Precision, Recall, F1 without CV
 
 
 
