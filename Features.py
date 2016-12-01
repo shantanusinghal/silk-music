@@ -77,11 +77,29 @@ Jlabel = label[300:-1]
 
 #print Ifeat
 #print len(Ilabel)
-dtErr = 0
-rfErr = 0
-svmErr = 0
-gnbErr =0
-lrErr = 0 
+# dtErr = 0
+# rfErr = 0
+# svmErr = 0
+# gnbErr =0
+# lrErr = 0
+
+dtTp = 0.0
+dtFp = 0.0
+dtFn = 0.0
+rfTp = 0.0
+rfFp = 0.0
+rfFn = 0.0
+svmTp = 0.0
+svmFp = 0.0
+svmFn = 0.0
+gnbTp = 0.0
+gnbFp = 0.0
+gnbFn = 0.0
+lrTp = 0.0
+lrFp = 0.0
+lrFn = 0.0
+
+
 
 for i in range(len(Ifeat)):
 	X = Ifeat[0:i] + Ifeat[i+1:]
@@ -90,7 +108,12 @@ for i in range(len(Ifeat)):
 	dt = tree.DecisionTreeClassifier()
 	dt = dt.fit(X, Y)
 	dtPred = dt.predict([Ifeat[i]])
-	dtErr += (Ilabel[i] != dtPred)
+	if dtPred == Ilabel[i]:
+		dtTp += 1
+	elif dtPred == 1:
+		dtFp += 1
+	else:
+		dtFn += 1
 	#print("Number of mislabeled points out of a total %d points : %d" % (len(V),(Vlabel != dtPred).sum()))
 
 
@@ -98,14 +121,24 @@ for i in range(len(Ifeat)):
 	rf = ensemble.RandomForestClassifier()
 	rf = rf.fit(X, Y)
 	rfPred = rf.predict([Ifeat[i]])
-	rfErr += (Ilabel[i] != rfPred)
+	if rfPred == Ilabel[i]:
+		rfTp += 1
+	elif rfPred == 1:
+		rfFp += 1
+	else:
+		rfFn += 1
 	#print("Number of mislabeled points out of a total %d points : %d" % (len(V),(Vlabel != rfPred).sum()))
 
 	#SVM
 	s1 = svm.SVC()
 	svmFit = s1.fit(X,Y)
 	svmPred = s1.predict([Ifeat[i]])
-	svmErr += (Ilabel[i] != svmPred)
+	if svmPred == Ilabel[i]:
+		svmTp += 1
+	elif svmPred == 1:
+		svmFp += 1
+	else:
+		svmFn += 1
 	#print svmPred
 	#print("Number of mislabeled points out of a total %d points : %d" % (len(V),(Vlabel != svmPred).sum()))
 
@@ -113,7 +146,12 @@ for i in range(len(Ifeat)):
 	gnb = naive_bayes.GaussianNB()
 	gnb = gnb.fit(X,Y)
 	gnbPred = gnb.predict([Ifeat[i]])
-	gnbErr += (Ilabel[i] != gnbPred)
+	if gnbPred == Ilabel[i]:
+		gnbTp += 1
+	elif gnbPred == 1:
+		gnbFp += 1
+	else:
+		gnbFn += 1
 	#print gnbPred
 	#print("Number of mislabeled points out of a total %d points : %d" % (len(V),(Vlabel != gnbPred).sum()))
 
@@ -121,15 +159,44 @@ for i in range(len(Ifeat)):
 	lr = linear_model.LogisticRegression()
 	lr = lr.fit(X,Y)
 	lrPred = gnb.predict([Ifeat[i]])
-	lrErr += (Ilabel[i] != lrPred)
+	if lrPred == Ilabel[i]:
+		lrTp += 1
+	elif lrPred == 1:
+		lrFp += 1
+	else:
+		lrFn += 1
 	#print lrPred
 
 #print dtErr, type(dtErr)
-dtRate = float(dtErr)/len(Ifeat) 
-rfRate = float(rfErr)/len(Ifeat)
-svmRate = float(svmErr)/len(Ifeat)
-gnbRate = float(gnbErr)/len(Ifeat)
-lrRate = float(lrErr)/len(Ifeat)	
+# dtRate = float(dtErr)/len(Ifeat)
+# rfRate = float(rfErr)/len(Ifeat)
+# svmRate = float(svmErr)/len(Ifeat)
+# gnbRate = float(gnbErr)/len(Ifeat)
+# lrRate = float(lrErr)/len(Ifeat)
 
-print "dtRate: " + str(dtRate) + " rfRate: " + str(rfRate) + " svmRate: " + str(svmRate) + " gnbRate: " + str(gnbRate) + " lrRate: " + str(lrRate)
+dtPrecision = dtTp / (dtTp + dtFp)
+dtRecall = dtTp / (dtTp + dtFn)
+dtF1Score = 2 * (dtPrecision * dtRecall) / (dtPrecision + dtRecall)
+
+rfPrecision = rfTp / (rfTp + rfFp)
+rfRecall = rfTp / (rfTp + rfFn)
+rfF1Score = 2 * (rfPrecision * rfRecall) / (rfPrecision + rfRecall)
+
+svmPrecision = svmTp / (svmTp + svmFp)
+svmRecall = svmTp / (svmTp + svmFn)
+svmF1Score = 2 * (svmPrecision * svmRecall) / (svmPrecision + svmRecall)
+
+gnbPrecision = gnbTp / (gnbTp + gnbFp)
+gnbRecall = gnbTp / (gnbTp + gnbFn)
+gnbF1Score = 2 * (gnbPrecision * gnbRecall) / (gnbPrecision + gnbRecall)
+
+lrPrecision = lrTp / (lrTp + lrFp)
+lrRecall = lrTp / (lrTp + lrFn)
+lrF1Score = 2 * (lrPrecision * lrRecall) / (lrPrecision + lrRecall)
+
+print "dtPrecision: " + str(dtPrecision) + "dtRecall: " + str(dtRecall) + "dtF1: " + str(dtF1Score)
+print "rfPrecision: " + str(rfPrecision) + "rfRecall: " + str(rfRecall) + " rfF1: " + str(rfF1Score)
+print "svmPrecision: " + str(svmPrecision) + "svmRecall: " + str(svmRecall) + " svmF1: " + str(svmF1Score)
+print "gnbPrecision: " + str(gnbPrecision) + "gnbRecall: " + str(gnbRecall) + " gnbF1: " + str(gnbF1Score)
+print "lrPrecision: " + str(lrPrecision) + "lrRecall: " + str(lrRecall) + " lrF1: " + str(lrF1Score)
 
