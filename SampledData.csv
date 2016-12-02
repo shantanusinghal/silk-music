@@ -10,9 +10,9 @@
 15,12,s_938, Taylor Swift, I Know Places,27-Oct-14, 3:15,Taylor Swift,I Know Places,27-Oct-14,3:15,1
 16,13,s_939, Taylor Swift, Clean,27-Oct-14, 4:31,Taylor Swift,Clean,27-Oct-14,4:31,1
 19,38,s_441, Taylor Swift, You're Not Sorry,11-Nov-08, 4:21,Lukas Graham,You're Not There,1-Apr-16,3:22,0
-21,47,s_2531, Taylor Swift, Dear John,25-Oct-10, 6:43,Joe Walsh,Dear John,12-Jun-07,2:40,1
+21,47,s_2531, Taylor Swift, Dear John,25-Oct-10, 6:43,Joe Walsh,Dear John,12-Jun-07,2:40,0
 23,67,s_511, Taylor Swift, Our Song,24-Oct-06, 3:21,Elton John,Your Song,12-Nov-02,4:05,0
-24,83,s_2713, Taylor Swift, Other Side of the Door,26-Oct-09, 3:57,Erykah Badu,Other Side Of The Game,11-Feb-97,6:33,1
+24,83,s_2713, Taylor Swift, Other Side of the Door,26-Oct-09, 3:57,Erykah Badu,Other Side Of The Game,11-Feb-97,6:33,0
 25,88,s_1755, Taylor Swift, White Horse,26-Oct-09, 3:54,John Carpenter,White Pulse,15-Apr-16,4:20,0
 27,92,s_441, Taylor Swift, You're Not Sorry,26-Oct-09, 4:21,Lukas Graham,You're Not There,1-Apr-16,3:22,0
 28,96,s_1766, Taylor Swift, Change,26-Oct-09, 4:41,MuteMath,Changes,23-Sep-16,3:54,0
@@ -31,7 +31,7 @@
 54,238,s_926, Rihanna, Sex with Me,29-Jan-16, 3:26,Rihanna,Sex With Me [Explicit],29-Jan-16,3:26,1
 55,252,s_2273, Rihanna, Fool In Love,21-Nov-11, 4:16,Monophonics,Foolish Love,6-Oct-14,7:45,0
 56,252,s_844, Rihanna, Fool In Love,21-Nov-11, 4:16,Britt Nicole,Fallin In Love,7-Oct-16,4:11,0
-57,255,s_909, Rihanna, Diamonds,1-Jan-12, 3:45,Barry Gibb,Diamonds,7-Oct-16,5:17,1
+57,255,s_909, Rihanna, Diamonds,1-Jan-12, 3:45,Barry Gibb,Diamonds,7-Oct-16,5:17,0
 59,279,s_2591, Rihanna, Sell Me Candy,1-Jan-08, 2:45,Various artists,Tell Me Baby,26-Feb-16,3:24,0
 60,290,s_1321, Rihanna, What's My Name? (feat. Drake),1-Jan-10, 4:23,ODESZA,Say My Name (feat. Zyra),18-Sep-15,4:23,0
 61,295,s_2530, Rihanna, Man Down,1-Jan-10, 4:27,Joe Walsh,Good Man Down,12-Jun-07,4:14,0
@@ -67,7 +67,7 @@
 107,415,s_917, Rihanna, Needed Me,29-Jan-16, 3:11,Rihanna,Needed Me [Explicit],29-Jan-16,3:11,1
 108,417,s_919, Rihanna, Same Ol? Mistakes,29-Jan-16, 6:37,Rihanna,Same Ol' Mistakes,29-Jan-16,6:37,1
 110,419,s_923, Rihanna, Love on the Brain,29-Jan-16, 3:43,Rihanna,Close To You,29-Jan-16,3:43,0
-112,420,s_413, Rihanna, Higher,29-Jan-16, 2:00,Carly Rae Jepsen,Higher,26-Aug-16,3:54,1
+112,420,s_413, Rihanna, Higher,29-Jan-16, 2:00,Carly Rae Jepsen,Higher,26-Aug-16,3:54,0
 113,420,s_922, Rihanna, Higher,29-Jan-16, 2:00,Rihanna,Higher [Explicit],29-Jan-16,2:00,1
 116,441,s_909, Rihanna, Diamonds,1-Jan-12, 3:45,Barry Gibb,Diamonds,7-Oct-16,5:17,0
 117,467,s_2273, Rihanna, Fool In Love,21-Nov-11, 4:15,Monophonics,Foolish Love,6-Oct-14,7:45,0
@@ -81,7 +81,7 @@
 129,533,s_961, Rihanna, Love on the Brain,29-Jan-16, 3:43,Adele,Love in the Dark,20-Nov-15,4:45,0
 131,534,s_922, Rihanna, Higher,29-Jan-16, 2:00,Rihanna,Higher [Explicit],29-Jan-16,2:00,1
 132,535,s_923, Rihanna, Close to You,29-Jan-16, 3:57,Rihanna,Close To You,29-Jan-16,3:43,1
-133,716,s_909, Rihanna, Diamonds,1-Jan-12, 3:45,Barry Gibb,Diamonds,7-Oct-16,5:17,1
+133,716,s_909, Rihanna, Diamonds,1-Jan-12, 3:45,Barry Gibb,Diamonds,7-Oct-16,5:17,0
 134,750,s_374, Eminem, Baby,5-Nov-13, 4:23,Janis Joplin,Cry Baby,31-Aug-99,3:56,0
 135,755,s_2423, Eminem, Cold Wind Blows,18-Jun-10, 5:03,Muddy Waters,Blow Wind Blow,30-Oct-01,3:38,0
 139,774,s_276, Eminem, Not Afraid,18-Jun-10, 4:12,Set It Off,Life Afraid,7-Oct-16,3:00,0
@@ -90,7 +90,7 @@
 144,784,s_2247, Eminem, Without Me,1-Jan-02, 4:50,CeCe Winans,Without Love,5-Aug-08,3:54,0
 147,795,s_2423, Eminem, Cold Wind Blows,18-Jun-10, 5:03,Muddy Waters,Blow Wind Blow,30-Oct-01,3:38,0
 149,803,s_889, Eminem, No Love (feat. Lil Wayne),18-Jun-10, 4:59,Ariana Grande,Let Me Love You [feat. Lil Wayne],20-May-16,3:43,0
-150,811,s_1428, Eminem, Untitled,18-Jun-10, 3:14,Burial,Untitled,1-Jul-14,0:46,1
+150,811,s_1428, Eminem, Untitled,18-Jun-10, 3:14,Burial,Untitled,1-Jul-14,0:46,0
 151,818,s_1127, Eminem, Way I Am,1-Jan-00, 4:50,Gavin DeGraw,Say I Am,9-Sep-16,3:15,0
 152,820,s_305, Eminem, Remember Me?,1-Jan-00, 3:38,Ingrid Michaelson,I Remember Her,26-Aug-16,3:29,0
 153,833,s_519, Eminem, Yellow Brick Road,4-Nov-04, 5:46,Elton John,Goodbye Yellow Brick Road,12-Nov-02,3:16,0
@@ -102,7 +102,7 @@
 159,861,s_2247, Eminem, Without Me,1-Jan-05, 4:51,CeCe Winans,Without Love,5-Aug-08,3:54,0
 160,861,s_2257, Eminem, Without Me,1-Jan-05, 4:51,Kem,Without You,17-May-05,4:08,0
 161,861,s_732, Eminem, Without Me,1-Jan-05, 4:51,Gwen Stefani,Me Without You,18-Mar-16,3:33,0
-162,875,s_210, JAY Z, Renegade,1-Jan-05, 5:36,Styx,Renegade,22-Aug-95,4:14,1
+162,875,s_210, JAY Z, Renegade,1-Jan-05, 5:36,Styx,Renegade,22-Aug-95,4:14,0
 163,882,s_1981, Eminem, Hello,19-May-09, 4:08,Lionel Richie,Hello,31-Jan-12,4:08,0
 164,882,s_2341, Eminem, Hello,19-May-09, 4:08,Prince,Hello,14-Jun-11,3:24,0
 165,882,s_954, Eminem, Hello,19-May-09, 4:08,Adele,Hello,20-Nov-15,4:55,0
@@ -331,14 +331,14 @@
 499,2646,s_1129, Maroon 5, New Love,15-May-15, 3:16,Gavin DeGraw,New Love,9-Sep-16,3:26,0
 502,2674,s_2567, Maroon 5, This Love,12-Feb-08, 3:25,DeBarge,All This Love,25-Mar-97,5:53,0
 503,2674,s_937, Maroon 5, This Love,12-Feb-08, 3:25,Taylor Swift,This Love,27-Oct-14,4:10,0
-506,2719,s_1765, Kanye West, Heartless (Bonus Track),2008, 3:40,John Carpenter,Real Xeno (Bonus Track),15-Apr-16,4:30,0
+506,2719,s_1765, Kanye West, Heartless (Bonus Track),1-Jan-08, 3:40,John Carpenter,Real Xeno (Bonus Track),15-Apr-16,4:30,0
 510,2740,s_1941, Kanye West, Addiction,1-Jan-05, 4:27,Black Violin,Addiction,18-Sep-15,4:08,0
 512,2751,s_1408, Kanye West, Intro,1-Jan-04, 0:19,Armin van Buuren,Into,19-Aug-16,3:24,0
 513,2751,s_1898, Kanye West, Intro,1-Jan-04, 0:19,India.Arie,Intro,27-Mar-01,0:50,0
 516,2754,s_2757, Kanye West, All Falls Down,1-Jan-04, 3:43,Ana Popovic,Rain Fall Down,27-Mar-13,4:07,0
 517,2768,s_294,"Kanye West, Mos Def, Freeway & The Harlem Boys Choir", Two Words,1-Jan-04, 4:26,Sabrina Carpenter,No Words,14-Oct-16,3:33,0
 518,2776,s_1382, Kanye West, All of the Lights,22-Nov-10, 4:59,Armin van Buuren,Follow The Light,19-Aug-16,4:22,0
-520,2794,s_584, JAY Z & Kanye West, Welcome Tto the Jungle,2011, 2:54,Guns N' Roses,Welcome To The Jungle,21-Jul-87,4:33,0
+520,2794,s_584, JAY Z & Kanye West, Welcome Tto the Jungle,1-Jan-11, 2:54,Guns N' Roses,Welcome To The Jungle,21-Jul-87,4:33,0
 521,2818,s_1918, Kanye West & JAY Z, New Day,12-Aug-11, 4:32,Alicia Keys,New Day,27-Nov-12,4:02,0
 522,2820,s_584, Kanye West & JAY Z, Welcome to the Jungle,12-Aug-11, 2:54,Guns N' Roses,Welcome To The Jungle,21-Jul-87,4:33,0
 523,2837,s_1454, Kanye West, Roses,1-Jan-05, 4:05,The Chainsmokers,Roses,23-Oct-15,3:45,0
@@ -351,11 +351,11 @@
 531,2850,s_1408, Kanye West, Intro,1-Jan-04, 0:19,Armin van Buuren,Into,19-Aug-16,3:24,0
 532,2850,s_1898, Kanye West, Intro,1-Jan-04, 0:19,India.Arie,Intro,27-Mar-01,0:50,0
 535,2853,s_2757, Kanye West, All Falls Down,1-Jan-04, 3:43,Ana Popovic,Rain Fall Down,27-Mar-13,4:07,0
-538,2890,s_1918, Kanye West & JAY Z, New Day,"Aug 12,2011", 4:32,Alicia Keys,New Day,27-Nov-12,4:02,0
-539,2892,s_584, Kanye West & JAY Z, Welcome to the Jungle,"Aug 12,2011", 2:54,Guns N' Roses,Welcome To The Jungle,21-Jul-87,4:33,0
+538,2890,s_1918, Kanye West & JAY Z, New Day,12-Aug-11, 4:32,Alicia Keys,New Day,27-Nov-12,4:02,0
+539,2892,s_584, Kanye West & JAY Z, Welcome to the Jungle,12-Aug-11, 2:54,Guns N' Roses,Welcome To The Jungle,21-Jul-87,4:33,0
 540,2901,s_1382, Kanye West, All of the Lights,22-Nov-10, 4:59,Armin van Buuren,Follow The Light,19-Aug-16,4:22,0
 542,2911,s_91, Kanye West, Runway,22-Nov-10, 34:25,Ed Sheeran,Runaway,23-Jun-14,3:25,0
-543,2917,s_1918, JAY Z & Kanye West, New Day,2011, 4:32,Alicia Keys,New Day,27-Nov-12,4:02,0
+543,2917,s_1918, JAY Z & Kanye West,new day ,1-Jan-11, 4:32,Alicia Keys,New Day,27-Nov-12,4:02,0
 545,2934,s_1531, Kanye West, We Don't Care,31-Aug-04, 2:55,Die Antwoord,I Don't Care,16-Sep-16,4:44,0
 546,2962,s_2115, Kanye West, Low Lights,15-Jun-16, 2:11,Chloe x Halle,Red Lights,29-Apr-16,3:17,0
 547,2963,s_1836, Kanye West, Highlights,15-Jun-16, 3:19,Various artists,Highlight,5-Sep-16,4:11,0
