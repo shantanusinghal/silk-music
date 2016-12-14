@@ -1,0 +1,95 @@
+IdE,IdA,IdB,Album,Genres,Label,Time,TrackName,Price,Artist,Released,Rating,IdD,Type
+1,1,s_927,1989,"Pop, Music, Rock","2014 Big Machine Records, LLC.",00:03:32,Welcome To New York,$1.29,Taylor Swift,2014-10-27 00:00:00,2,,Clean
+2,3,s_929,1989,"Pop, Music, Rock","2014 Big Machine Records, LLC.",00:03:51,Style,$1.29,Taylor Swift,2014-10-27 00:00:00,2.666666667,,Clean
+3,5,s_931,1989,"Pop, Music, Rock","2014 Big Machine Records, LLC.",00:03:13,All You Had To Do Was Stay,$1.29,Taylor Swift,2014-10-27 00:00:00,0.666666667,,Clean
+4,7,s_933,1989,"Pop, Music, Rock","2014 Big Machine Records, LLC.",00:03:27,I Wish You Would,$1.29,Taylor Swift,2014-10-27 00:00:00,0.333333333,,Clean
+5,8,s_934,1989,"Pop, Music, Rock","2014 Big Machine Records, LLC.",00:03:31,Bad Blood,$1.29,Taylor Swift,2014-10-27 00:00:00,2.666666667,,Clean
+6,9,s_935,1989,"Pop, Music, Rock","2014 Big Machine Records, LLC.",00:03:40,Wildest Dreams,$1.29,Taylor Swift,2014-10-27 00:00:00,3.333333333,,Clean
+7,10,s_936,1989,"Pop, Music, Rock","2014 Big Machine Records, LLC.",00:04:07,How You Get the Girl,$1.29,Taylor Swift,2014-10-27 00:00:00,0.666666667,,Clean
+8,11,s_937,1989,"Pop, Music, Rock","2014 Big Machine Records, LLC.",00:04:10,This Love,$1.29,Taylor Swift,2014-10-27 00:00:00,0.666666667,,Clean
+9,12,s_938,1989,"Pop, Music, Rock","2014 Big Machine Records, LLC.",00:03:15,I Know Places,$1.29,Taylor Swift,2014-10-27 00:00:00,0.666666667,,Clean
+10,13,s_939,1989,"Pop, Music, Rock","2014 Big Machine Records, LLC.",00:04:31,Clean,$1.29,Taylor Swift,2014-10-27 00:00:00,0.666666667,,Clean
+11,224,s_912,Anti (Deluxe) [Explicit],"Pop, Music",2016 Westbury Road Entertainment.,00:01:12,James Joint [Explicit],$1.29,Rihanna,2016-01-29 00:00:00,2.333333333,,Explicit
+12,225,s_913,Anti (Deluxe) [Explicit],"Pop, Music",2016 Westbury Road Entertainment.,00:04:13,Kiss It Better [Explicit],$1.29,Rihanna,2016-01-29 00:00:00,1.666666667,,Explicit
+13,231,s_919,Anti (Deluxe) [Explicit],"Pop, Music",2016 Westbury Road Entertainment.,00:06:37,Same Ol? Mistakes,$1.29,Rihanna,2016-01-29 00:00:00,0.666666667,,Explicit
+14,234,s_922,Anti (Deluxe) [Explicit],"Pop, Music",2016 Westbury Road Entertainment.,00:02:00,Higher [Explicit],$1.29,Rihanna,2016-01-29 00:00:00,0.333333333,,Explicit
+15,235,s_923,Anti (Deluxe) [Explicit],"Pop, Music",2016 Westbury Road Entertainment.,00:03:57,Close to You,$1.29,Rihanna,2016-01-29 00:00:00,4.333333333,,Explicit
+16,237,s_925,Anti (Deluxe) [Explicit],"Pop, Music",2016 Westbury Road Entertainment.,00:02:24,Pose [Explicit],$1.29,Rihanna,2016-01-29 00:00:00,0.333333333,,Explicit
+17,238,s_926,Anti (Deluxe) [Explicit],"Pop, Music",2016 Westbury Road Entertainment.,00:03:26,Sex With Me [Explicit],$1.29,Rihanna,2016-01-29 00:00:00,2.666666667,,Explicit
+18,395,s_913,Anti (Deluxe) [Explicit],"Pop, Music",2016 Westbury Road Entertainment.,00:04:13,Kiss It Better [Explicit],$1.29,Rihanna,2016-01-29 00:00:00,1.666666667,,Explicit
+19,398,s_916,Anti (Deluxe) [Explicit],"Pop, Music",2016 Westbury Road Entertainment.,00:03:55,Woo [Explicit],$1.29,Rihanna,2016-01-29 00:00:00,4.333333333,,Explicit
+20,399,s_917,Anti (Deluxe) [Explicit],"Pop, Music",2016 Westbury Road Entertainment.,00:03:11,Needed Me [Explicit],$1.29,Rihanna,2016-01-29 00:00:00,5,,Explicit
+21,404,s_922,Anti (Deluxe) [Explicit],"Pop, Music",2016 Westbury Road Entertainment.,00:02:00,Higher [Explicit],$1.29,Rihanna,2016-01-29 00:00:00,0.333333333,,Explicit
+22,407,s_925,Anti (Deluxe) [Explicit],"Pop, Music",2016 Westbury Road Entertainment.,00:02:24,Pose [Explicit],$1.29,Rihanna,2016-01-29 00:00:00,0.333333333,,Explicit
+23,408,s_926,Anti (Deluxe) [Explicit],"Pop, Music",2016 Westbury Road Entertainment.,00:03:26,Sex With Me [Explicit],$1.29,Rihanna,2016-01-29 00:00:00,2.666666667,,Explicit
+24,409,s_911,Anti (Deluxe) [Explicit],"Pop, Music",2016 Westbury Road Entertainment.,00:02:41,Consideration [feat. SZA] [Explicit],$1.29,Rihanna,2016-01-29 00:00:00,2.666666667,,Explicit
+25,410,s_912,Anti (Deluxe) [Explicit],"Pop, Music",2016 Westbury Road Entertainment.,00:01:12,James Joint [Explicit],$1.29,Rihanna,2016-01-29 00:00:00,2.333333333,,Explicit
+26,412,s_914,Anti (Deluxe) [Explicit],"Pop, Music",2016 Westbury Road Entertainment.,00:03:39,Work [feat. Drake] [Explicit],$1.29,Rihanna,2016-01-29 00:00:00,3.333333333,,Explicit
+27,413,s_915,Anti (Deluxe) [Explicit],"Pop, Music",2016 Westbury Road Entertainment.,00:03:06,Desperado,$1.29,Rihanna,2016-01-29 00:00:00,1,,Explicit
+28,414,s_916,Anti (Deluxe) [Explicit],"Pop, Music",2016 Westbury Road Entertainment.,00:03:55,Woo [Explicit],$1.29,Rihanna,2016-01-29 00:00:00,4.333333333,,Explicit
+29,415,s_917,Anti (Deluxe) [Explicit],"Pop, Music",2016 Westbury Road Entertainment.,00:03:11,Needed Me [Explicit],$1.29,Rihanna,2016-01-29 00:00:00,5,,Explicit
+30,417,s_919,Anti (Deluxe) [Explicit],"Pop, Music",2016 Westbury Road Entertainment.,00:06:37,Same Ol? Mistakes,$1.29,Rihanna,2016-01-29 00:00:00,0.666666667,,Explicit
+31,420,s_922,Anti (Deluxe) [Explicit],"Pop, Music",2016 Westbury Road Entertainment.,00:02:00,Higher [Explicit],$1.29,Rihanna,2016-01-29 00:00:00,0.333333333,,Explicit
+32,523,s_911,Anti (Deluxe) [Explicit],"Pop, Music",2016 Westbury Road Entertainment. Distributed by Roc Nation Records,00:02:41,Consideration [feat. SZA] [Explicit],$1.29,Rihanna,2016-01-29 00:00:00,2.666666667,,Explicit
+33,524,s_912,Anti (Deluxe) [Explicit],"Pop, Music",2016 Westbury Road Entertainment. Distributed by Roc Nation Records,00:01:12,James Joint [Explicit],$1.29,Rihanna,2016-01-29 00:00:00,2.333333333,,Explicit
+34,525,s_913,Anti (Deluxe) [Explicit],"Pop, Music",2016 Westbury Road Entertainment. Distributed by Roc Nation Records,00:04:13,Kiss It Better [Explicit],$1.29,Rihanna,2016-01-29 00:00:00,1.666666667,,Explicit
+35,526,s_914,Anti (Deluxe) [Explicit],"Pop, Music",2016 Westbury Road Entertainment. Distributed by Roc Nation Records,00:03:39,Work [feat. Drake] [Explicit],$1.29,Rihanna,2016-01-29 00:00:00,3.333333333,,Explicit
+36,532,s_920,Anti (Deluxe) [Explicit],"Pop, Music",2016 Westbury Road Entertainment. Distributed by Roc Nation Records,00:03:22,Never Ending,$1.29,Rihanna,2016-01-29 00:00:00,0.333333333,,Explicit
+37,534,s_922,Anti (Deluxe) [Explicit],"Pop, Music",2016 Westbury Road Entertainment. Distributed by Roc Nation Records,00:02:00,Higher [Explicit],$1.29,Rihanna,2016-01-29 00:00:00,0.333333333,,Explicit
+38,535,s_923,Anti (Deluxe) [Explicit],"Pop, Music",2016 Westbury Road Entertainment. Distributed by Roc Nation Records,00:03:57,Close to You,$1.29,Rihanna,2016-01-29 00:00:00,4.333333333,,Explicit
+39,1873,s_1002,Lemonade [Explicit],"Pop, Music",2016 Parkwood Entertainment LLC,00:03:16,Pray You Catch Me,$1.29,Beyonce,2016-04-23 00:00:00,2.333333333,,Explicit
+40,1873,s_28,Lemonade [Clean],"Pop, Music",2016 Parkwood Entertainment LLC,00:03:16,Pray You Catch Me,$1.29,Beyonce,2016-04-23 00:00:00,1.666666667,,Clean
+41,1878,s_1007,Lemonade [Explicit],"Pop, Music",2016 Parkwood Entertainment LLC,00:04:48,Daddy Lessons,$1.29,Beyonce,2016-04-23 00:00:00,2.333333333,,Explicit
+42,1879,s_1008,Lemonade [Explicit],"Pop, Music",2016 Parkwood Entertainment LLC,00:03:57,Love Drought,$1.29,Beyonce,2016-04-23 00:00:00,2,,Explicit
+43,1879,s_34,Lemonade [Clean],"Pop, Music",2016 Parkwood Entertainment LLC,00:03:57,Love Drought,$1.29,Beyonce,2016-04-23 00:00:00,1,,Clean
+44,1883,s_1012,Lemonade [Explicit],"Pop, Music",2016 Parkwood Entertainment LLC,00:05:22,All Night,$1.29,Beyonce,2016-04-23 00:00:00,2.666666667,,Explicit
+45,1883,s_38,Lemonade [Clean],"Pop, Music",2016 Parkwood Entertainment LLC,00:05:21,All Night,$1.29,Beyonce,2016-04-23 00:00:00,1.666666667,,Clean
+46,1975,s_1002,Lemonade [Explicit],"Pop, Music",2016 Parkwood Entertainment LLC,00:03:16,Pray You Catch Me,$1.29,Beyonce,2016-04-23 00:00:00,2.333333333,,Explicit
+47,1975,s_28,Lemonade [Clean],"Pop, Music",2016 Parkwood Entertainment LLC,00:03:16,Pray You Catch Me,$1.29,Beyonce,2016-04-23 00:00:00,1.666666667,,Clean
+48,1980,s_1007,Lemonade [Explicit],"Pop, Music",2016 Parkwood Entertainment LLC,00:04:48,Daddy Lessons,$1.29,Beyonce,2016-04-23 00:00:00,2.333333333,,Explicit
+49,1981,s_1008,Lemonade [Explicit],"Pop, Music",2016 Parkwood Entertainment LLC,00:03:57,Love Drought,$1.29,Beyonce,2016-04-23 00:00:00,2,,Explicit
+50,1985,s_1012,Lemonade [Explicit],"Pop, Music",2016 Parkwood Entertainment LLC,00:05:22,All Night,$1.29,Beyonce,2016-04-23 00:00:00,2.666666667,,Explicit
+51,1985,s_38,Lemonade [Clean],"Pop, Music",2016 Parkwood Entertainment LLC,00:05:21,All Night,$1.29,Beyonce,2016-04-23 00:00:00,1.666666667,,Clean
+52,2983,s_956,25,"Pop, Music","2015 XL Recordings, Ltd.",00:05:48,I Miss You,$1.29,Adele,2015-11-20 00:00:00,0.333333333,,Clean
+53,2984,s_957,25,"Pop, Music","2015 XL Recordings, Ltd.",00:04:50,When We Were Young,$1.29,Adele,2015-11-20 00:00:00,2,,Clean
+54,2985,s_958,25,"Pop, Music",2015 XL Recordings Ltd.,00:04:05,Remedy,$1.29,Adele,2015-11-20 00:00:00,0.666666667,,Clean
+55,2988,s_961,25,"Pop, Music","2015 XL Recordings, Ltd.",00:04:45,Love in the Dark,$1.29,Adele,2015-11-20 00:00:00,0.333333333,,Clean
+56,2990,s_963,25,"Pop, Music","2015 XL Recordings, Ltd.",00:04:31,All I Ask,$1.29,Adele,2015-11-20 00:00:00,0.666666667,,Clean
+57,2991,s_964,25,"Pop, Music","2015 XL Recordings, Ltd.",00:04:11,Sweetest Devotion,$1.29,Adele,2015-11-20 00:00:00,0.666666667,,Clean
+58,2993,s_712,21,"Pop, Music, R &B/Soul, Neo-Soul, Rock, Adult Alternative, Soul",2010 XL Recordings Ltd,00:03:43,Rumour Has It,$1.29,Adele,2011-01-24 00:00:00,3.666666667,,Clean
+59,2995,s_714,21,"Pop, Music, R &B/Soul, Neo-Soul, Rock, Adult Alternative, Soul",2010 XL Recordings Ltd,00:04:03,Don't You Remember,$1.29,Adele,2011-01-24 00:00:00,1.333333333,,Clean
+60,2996,s_715,21,"Pop, Music, R &B/Soul, Neo-Soul, Rock, Adult Alternative, Soul",2010 XL Recordings Ltd,00:04:01,Set Fire to the Rain,$1.29,Adele,2011-01-24 00:00:00,4.333333333,,Clean
+61,2997,s_716,21,"Pop, Music, R &B/Soul, Neo-Soul, Rock, Adult Alternative, Soul",2010 XL Recordings Ltd,00:04:37,He Won't Go,$1.29,Adele,2011-01-24 00:00:00,1,,Clean
+62,2998,s_717,21,"Pop, Music, R &B/Soul, Neo-Soul, Rock, Adult Alternative, Soul",2010 XL Recordings Ltd,00:03:48,Take It All,$1.29,Adele,2011-01-24 00:00:00,0.666666667,,Clean
+63,2999,s_718,21,"Pop, Music, R &B/Soul, Neo-Soul, Rock, Adult Alternative, Soul",2010 XL Recordings Ltd,00:04:01,I'll Be Waiting,$1.29,Adele,2011-01-24 00:00:00,0.666666667,,Clean
+64,3028,s_109,Purpose (Deluxe),"Pop, Music",2015 Def Jam Recordings,00:02:14,Mark My Words,$1.29,Justin Bieber,2015-11-13 00:00:00,0.666666667,,Clean
+65,3031,s_112,Purpose (Deluxe),"Pop, Music",2015 Def Jam Recordings,00:03:20,Sorry,$1.29,Justin Bieber,2015-11-13 00:00:00,5,,Clean
+66,3032,s_113,Purpose (Deluxe),"Pop, Music",2015 Def Jam Recordings,00:03:53,Love Yourself,$1.29,Justin Bieber,2015-11-13 00:00:00,5,,Clean
+67,3033,s_114,Purpose (Deluxe),"Pop, Music",2015 Def Jam Recordings,00:03:28,Company,$1.29,Justin Bieber,2015-11-13 00:00:00,2.333333333,,Clean
+68,3034,s_115,Purpose (Deluxe),"Pop, Music",2015 Def Jam Recordings,00:04:46,No Pressure (feat. Big Sean),$1.29,Justin Bieber,2015-11-13 00:00:00,0.666666667,,Clean
+69,3035,s_116,Purpose (Deluxe),"Pop, Music",2015 Def Jam Recordings,00:04:35,No Sense [feat. Travis Scott],$1.29,Justin Bieber,2015-11-13 00:00:00,0.666666667,,Clean
+70,3036,s_117,Purpose (Deluxe),"Pop, Music",2015 Def Jam Recordings,00:04:04,The Feeling [feat. Halsey],$1.29,Justin Bieber,2015-11-13 00:00:00,1,,Clean
+71,3037,s_118,Purpose (Deluxe),"Pop, Music",2015 Def Jam Recordings,00:03:54,Life Is Worth Living,$1.29,Justin Bieber,2015-11-13 00:00:00,0.333333333,,Clean
+72,3038,s_119,Purpose (Deluxe),"Pop, Music",2015 Def Jam Recordings,00:04:02,Where are you now,$1.29,Justin Bieber,2015-11-13 00:00:00,0,,Clean
+73,3039,s_120,Purpose (Deluxe),"Pop, Music",2015 Def Jam Recordings,00:03:43,Children,$1.29,Justin Bieber,2015-11-13 00:00:00,0.333333333,,Clean
+74,3041,s_122,Purpose (Deluxe),"Pop, Music",2015 Def Jam Recordings,00:03:19,Been you,$1.29,Justin Bieber,2015-11-13 00:00:00,0.666666667,,Clean
+75,,,Mad Love. (Deluxe) [Explicit],Pop,Atlantic Records,00:03:20,I Can Only. (feat. Alessia Cara),$1.29,JOJO,2016-10-14 00:00:00,2,d_2,explicit
+76,,,Mad Love. (Deluxe) [Explicit],Pop,Atlantic Records,00:03:15,F*** Apologies. (feat. Wiz Khalifa) [Explicit],$0.69,JOJO,2016-10-14 00:00:00,3.333333333,d_3,explicit
+77,,,Mad Love. (Deluxe) [Explicit],Pop,Atlantic Records,00:03:35,FAB. (feat. Remy Ma) [Explicit],$1.29,JOJO,2016-10-14 00:00:00,5,d_4,explicit
+78,,,Voodoo [Explicit],Rap & Hip-Hop,Brainsick Muzik,00:06:21,Brain Damage (feat. Iso & Bleezo) [Explicit],$0.99,Twisted Insane,2015-12-18 00:00:00,4,d_27,explicit
+79,,,Voodoo [Explicit],Rap & Hip-Hop,Brainsick Muzik,00:03:41,Voodoo [Explicit],$0.99,Twisted Insane,2015-12-18 00:00:00,4,d_29,explicit
+80,,,Voodoo [Explicit],Rap & Hip-Hop,Brainsick Muzik,00:04:04,The Chop Shop [Explicit],$0.99,Twisted Insane,2015-12-18 00:00:00,5,d_30,explicit
+81,,,Voodoo [Explicit],Rap & Hip-Hop,Brainsick Muzik,00:02:01,200 Round Clip [Explicit],$0.99,Twisted Insane,2015-12-18 00:00:00,2,d_33,explicit
+82,,,Voodoo [Explicit],Rap & Hip-Hop,Brainsick Muzik,00:01:52,Sweet Dreams [Explicit],$0.99,Twisted Insane,2015-12-18 00:00:00,4,d_34,explicit
+83,,,Big Baby D.R.A.M. [Explicit],Rap & Hip-Hop,EMPIRE / Atlantic Recording Corporation,00:04:05,WiFi [Explicit],$1.29,D.R.A.M.,2016-10-21 00:00:00,5,d_40,explicit
+84,,,Big Baby D.R.A.M. [Explicit],Rap & Hip-Hop,EMPIRE / Atlantic Recording Corporation,00:03:01,Cash Machine [Explicit],$1.29,D.R.A.M.,2016-10-21 00:00:00,3.666666667,d_41,explicit
+85,,,Big Baby D.R.A.M. [Explicit],Rap & Hip-Hop,EMPIRE / Atlantic Recording Corporation,00:03:45,Broccoli [Explicit],$1.29,D.R.A.M.,2016-10-21 00:00:00,5,d_42,explicit
+86,,,Royalty (Deluxe Version) [Explicit],R&B,RCA Records Label,00:03:21,Back To Sleep [Explicit],$1.29,Chris Brown,2016-12-18 00:00:00,5,d_50,explicit
+87,,,Royalty (Deluxe Version) [Explicit],R&B,RCA Records Label,00:03:50,Make Love,$1.29,Chris Brown,2016-12-18 00:00:00,2.666666667,d_53,explicit
+88,,,Royalty (Deluxe Version) [Explicit],R&B,RCA Records Label,00:03:44,Liquor [Explicit],$1.29,Chris Brown,2016-12-18 00:00:00,3.666666667,d_54,explicit
+89,,,Royalty (Deluxe Version) [Explicit],R&B,RCA Records Label,00:03:34,Zero [Explicit],$1.29,Chris Brown,2016-12-18 00:00:00,2.666666667,d_55,explicit
+90,,,Royalty (Deluxe Version) [Explicit],R&B,RCA Records Label,00:03:13,Picture Me Rollin' [Explicit],$1.29,Chris Brown,2016-12-18 00:00:00,3,d_57,explicit
+91,,,Royalty (Deluxe Version) [Explicit],R&B,RCA Records Label,00:04:33,Who's Gonna (Nobody) [Explicit],$1.29,Chris Brown,2016-12-18 00:00:00,2,d_58,explicit
+92,,,Royalty (Deluxe Version) [Explicit],R&B,RCA Records Label,00:04:25,Discover [Explicit],$1.29,Chris Brown,2016-12-18 00:00:00,2,d_59,explicit
+93,,,Royalty (Deluxe Version) [Explicit],R&B,RCA Records Label,00:04:20,Little More (Royalty),$1.29,Chris Brown,2016-12-18 00:00:00,2.333333333,d_63,explicit
+94,,,SremmLife 2 (Deluxe) [Explicit],Rap & Hip-Hop,Eardruma/Interscope Records,00:04:51,Black Beatles [feat. Gucci Mane] [Explicit],$1.29,Rae Sremmurd,2016-08-12 00:00:00,5,d_72,explicit
